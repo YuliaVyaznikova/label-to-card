@@ -41,7 +41,7 @@ def photo_quality(path, settings):
 def photo_checks(qualities, lines, fields):
     has_composition = fields.get("composition", {}).get("source") == "photo" or any("состав" in norm(line["text"]) for line in lines.values())
     checks = [
-        {"name": "two_photos", "passed": len(qualities) >= 2, "message": "Добавьте ещё одно фото: лицевую сторону и этикетку."},
+        {"name": "two_photos", "passed": len(qualities) >= 2, "message": "Добавьте ещё одно фото, нужны и лицевая сторона, и этикетка"},
         {"name": "composition_photo", "field": "composition", "passed": has_composition, "message": "Сфотографируйте часть этикетки, где написан состав"},
     ]
     for number, quality in enumerate(qualities, 1):
