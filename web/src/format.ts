@@ -5,8 +5,8 @@ const DURATIONS: Record<string, string> = { days: 'сут.', months: 'мес.', 
 
 export const SOURCE_LABELS: Record<FieldOut['source'], string> = {
   photo: 'с фото',
-  farmer: 'со слов фермера',
-  edited: 'исправлено вами',
+  farmer: 'с Ваших слов',
+  edited: 'введено Вами',
   none: 'нет данных',
   conflict: 'расхождение',
 }

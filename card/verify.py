@@ -163,7 +163,7 @@ def apply_conflicts(fields, hints, settings):
                     "alternatives": [{"value": label, "source": "photo"}, {"value": farmer_weight, "source": "farmer"}],
                 }
                 issues.append({"rule": "label_farmer_mismatch", "severity": "block", "field": "net_quantity",
-                               "message": f"На этикетке {label['value']:g}, а в вашем вводе {farmer_weight['value']:g}. Выберите верное значение."})
+                               "message": f"На этикетке {label['value']:g}, а в Вашем вводе {farmer_weight['value']:g}, выберите верное значение"})
     return issues
 
 

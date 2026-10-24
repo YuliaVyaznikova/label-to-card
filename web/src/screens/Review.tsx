@@ -17,7 +17,7 @@ type Props = { draft: Draft; onDraft: (draft: Draft) => void; onReprocess: () =>
 const METHODS: Record<string, string> = {
   model: 'написано моделью только по проверенным полям',
   template: 'собрано по шаблону из проверенных полей',
-  edited: 'исправлено вами',
+  edited: 'исправлено Вами',
   empty: 'пока не из чего писать',
 }
 
@@ -63,12 +63,12 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
   const reason = blocks.length ? 'Сначала исправьте блокирующие замечания' : draft.status !== 'ready' ? 'Заполните обязательные поля' : ''
 
   return (
-    <div className="mx-auto max-w-6xl px-4 pt-5 pb-28">
+    <div className="mx-auto max-w-6xl px-4 pt-6 pb-28">
       <div className="mb-5 flex flex-wrap items-center gap-3">
         <Button variant="ghost" size="icon" onClick={onBack} aria-label="Назад"><ArrowLeft /></Button>
         <div className="min-w-0 flex-1">
-          <h1 className="truncate text-xl font-semibold">{draft.fields.name?.value ? String(draft.fields.name.value.value) : 'Черновик карточки'}</h1>
-          <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-muted">
+          <h1 className="truncate text-2xl font-semibold tracking-tight">{draft.fields.name?.value ? String(draft.fields.name.value.value) : 'Черновик карточки'}</h1>
+          <div className="mt-1.5 flex flex-wrap items-center gap-2 text-xs text-muted">
             {draft.category && <Badge tone="brand">{draft.category.value} · {percent(draft.category.confidence)}</Badge>}
             <span>обработка {String(draft.timings?.total ?? '?')} с</span>
           </div>
@@ -79,8 +79,8 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
         <div className="flex flex-col gap-4 lg:sticky lg:top-4 lg:self-start">
           <PhotoViewer photos={draft.photos} lines={draft.lines} highlights={highlights} active={active} onActive={setActive} />
           {draft.photos.length < 5 && (
-            <label className="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-dashed border-line bg-white py-2.5 text-sm text-muted hover:bg-stone-50">
-              <ImagePlus className="size-4" /> досъёмка: добавить фото этикетки
+            <label className="flex cursor-pointer items-center justify-center gap-2 rounded-xl border border-dashed border-brand-200 bg-white py-3 text-sm font-semibold text-brand-700 transition-colors hover:bg-brand-50">
+              <ImagePlus className="size-4" /> Добавить ещё фото этикетки
               <input type="file" accept="image/jpeg,image/png" className="hidden" onChange={(event) => addPhoto(event.target.files?.[0])} />
             </label>
           )}
@@ -89,11 +89,11 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
         <div className="flex flex-col gap-4">
           {readiness && (
             <Card>
-              <CardContent className="pt-4">
+              <CardContent className="pt-5">
                 <div className="flex items-end justify-between gap-4">
                   <div>
                     <p className="text-xs text-muted">Готовность карточки</p>
-                    <p className="text-4xl font-semibold tabular-nums">{readiness.score}<span className="text-lg text-muted">/100</span></p>
+                    <p className="text-4xl font-semibold text-brand-700 tabular-nums">{readiness.score}<span className="text-lg font-medium text-muted">/100</span></p>
                   </div>
                   <div className="grid w-56 gap-1.5 text-xs">
                     {([['поля', readiness.fields], ['фото', readiness.photos], ['текст', readiness.text]] as const).map(([label, value]) => (
@@ -112,7 +112,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
                       {draft.missing.map((item) => (
                         <li key={item.action}>
                           <button type="button" onClick={() => item.field && select(item.field)} className={cn('flex w-full items-start gap-2 text-left text-sm', item.field && 'cursor-pointer hover:text-brand-700')}>
-                            <CircleAlert className="mt-0.5 size-4 shrink-0 text-amber-500" />{item.action}
+                            <CircleAlert className="mt-0.5 size-4 shrink-0 text-[#e0a800]" />{item.action}
                           </button>
                         </li>
                       ))}
@@ -130,8 +130,8 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
               </CardHeader>
               <CardContent className="space-y-2">
                 {[...blocks, ...warnings].map((issue, index) => (
-                  <div key={index} className={cn('flex gap-2 rounded-lg px-3 py-2 text-sm', issue.severity === 'block' ? 'bg-rose-50 text-rose-900' : 'bg-amber-50 text-amber-900')}>
-                    {issue.severity === 'block' ? <OctagonAlert className="mt-0.5 size-4 shrink-0" /> : <TriangleAlert className="mt-0.5 size-4 shrink-0" />}
+                  <div key={index} className={cn('flex gap-2.5 rounded-xl px-3.5 py-2.5 text-sm leading-relaxed', issue.severity === 'block' ? 'bg-rose-50 text-rose-900' : 'bg-sun-50 text-ink')}>
+                    {issue.severity === 'block' ? <OctagonAlert className="mt-0.5 size-4 shrink-0" /> : <TriangleAlert className="mt-0.5 size-4 shrink-0 text-sun-700" />}
                     <span>{issue.message}</span>
                   </div>
                 ))}
@@ -177,7 +177,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
               <Card>
                 <CardHeader>
                   <CardTitle>Что предложила модель и что прошло проверку</CardTitle>
-                  <CardDescription>Значение попадает в карточку, только если его текст найден на фото или в ваших словах</CardDescription>
+                  <CardDescription>Значение попадает в карточку, только если его текст найден на фото или в Ваших словах</CardDescription>
                 </CardHeader>
                 <CardContent className="divide-y divide-line">
                   {draft.log.map((entry, index) => (
@@ -199,7 +199,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
         </div>
       </div>
 
-      <div className="fixed inset-x-0 bottom-0 border-t border-line bg-white/95 backdrop-blur">
+      <div className="fixed inset-x-0 bottom-0 border-t border-line bg-white/95 shadow-[0_-6px_20px_rgba(29,42,31,0.06)] backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
           <p className="text-sm text-muted">{reason || 'Карточка готова к отправке на площадку'}</p>
           <Button size="lg" disabled={!!reason || busy} onClick={() => run(() => api.confirm(draft.draft_id))}>

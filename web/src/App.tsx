@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import { api, type Draft } from '@/api'
+import { Logo, Stripes } from '@/components/Brand'
 import { Done } from '@/screens/Done'
 import { Processing } from '@/screens/Processing'
 import { Review } from '@/screens/Review'
@@ -61,13 +62,14 @@ export default function App() {
   return (
     <div className="min-h-screen">
       <header className="border-b border-line bg-white">
-        <div className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-3">
-          <button type="button" onClick={() => open(null)} className="flex cursor-pointer items-center gap-2">
-            <span className="flex size-7 items-center justify-center rounded-lg bg-brand-600 text-xs font-bold text-white">3′</span>
-            <span className="text-sm font-semibold">Карточка за три минуты</span>
+        <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3">
+          <button type="button" onClick={() => open(null)} className="flex cursor-pointer items-center gap-3">
+            <Logo className="size-9" />
+            <span className="text-[15px] font-semibold text-brand-700">Карточка за три минуты</span>
           </button>
           <span className="ml-auto hidden text-xs text-muted sm:inline">прототип для «Своё Родное»</span>
         </div>
+        <Stripes />
       </header>
       {!id && <Upload onCreated={open} />}
       {id && !draft && <Processing failed={failed} onRetry={() => open(null)} />}

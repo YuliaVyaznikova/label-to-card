@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { ImagePlus, Loader2, ScanText, ShieldCheck, Sparkles, X } from 'lucide-react'
+import { ImagePlus, Loader2, X } from 'lucide-react'
 import { api, type CategoryInfo, type Hints } from '@/api'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -9,9 +9,9 @@ type Props = { onCreated: (id: string) => void }
 
 const TIPS = ['лицевая сторона с названием', 'этикетка с составом', 'таблица пищевой ценности и срок годности']
 const STEPS = [
-  { icon: ScanText, title: 'Читаем этикетку', text: 'распознаём текст и находим нужные поля' },
-  { icon: ShieldCheck, title: 'Проверяем каждое значение', text: 'в карточку попадает только то, что есть на фото или в ваших словах' },
-  { icon: Sparkles, title: 'Подсказываем, что добавить', text: 'готовность карточки и список того, чего не хватает' },
+  { title: 'Читаем этикетку', text: 'распознаём текст и находим нужные поля' },
+  { title: 'Проверяем каждое значение', text: 'в карточку попадает только то, что есть на фото или в Ваших словах' },
+  { title: 'Подсказываем, что добавить', text: 'показываем, что осталось заполнить после автоматического распознавания' },
 ]
 
 export function Upload({ onCreated }: Props) {
@@ -44,14 +44,26 @@ export function Upload({ onCreated }: Props) {
   const set = (key: keyof Hints) => (event: { target: { value: string } }) => setHints({ ...hints, [key]: event.target.value })
 
   return (
-    <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 px-4 py-8 lg:grid-cols-[1fr_340px]">
+    <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-4 py-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-start lg:py-10">
+      <section className="rounded-2xl bg-brand-700 px-6 py-7 text-white sm:px-8 sm:pb-9 lg:sticky lg:top-6 lg:px-9 lg:pt-9 lg:pb-11">
+        <h1 className="text-3xl leading-tight font-semibold tracking-tight lg:text-[2.6rem]">Карточка товара за&nbsp;три минуты</h1>
+        <p className="mt-4 max-w-md text-[15px] leading-relaxed text-white/80">
+          Сфотографируйте упаковку, и сервис соберёт черновик карточки, указав, откуда взято каждое значение
+        </p>
+        <ol className="mt-9 hidden space-y-6 sm:block">
+          {STEPS.map(({ title, text }, index) => (
+            <li key={title} className="grid grid-cols-[2.75rem_minmax(0,1fr)] border-t border-white/15 pt-5">
+              <span className="text-xl leading-none font-semibold text-brand-300 tabular-nums">{String(index + 1).padStart(2, '0')}</span>
+              <div>
+                <p className="leading-tight font-semibold">{title}</p>
+                <p className="mt-1.5 text-sm leading-relaxed text-white/70">{text}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+
       <div className="flex flex-col gap-5">
-        <div>
-          <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Карточка товара за три минуты</h1>
-          <p className="mt-2 max-w-xl text-sm leading-relaxed text-muted">
-            Сфотографируйте упаковку, и сервис соберёт черновик карточки для «Своё Родное». У каждого значения будет отметка, откуда оно взято, а то, чего нет на фото, сервис не придумывает, а спрашивает у вас.
-          </p>
-        </div>
         <Card>
           <CardHeader>
             <CardTitle>Фото упаковки</CardTitle>
@@ -60,18 +72,18 @@ export function Upload({ onCreated }: Props) {
           <CardContent>
             <div className="grid grid-cols-3 gap-3 sm:grid-cols-5">
               {previews.map((url, index) => (
-                <div key={url} className="group relative aspect-square overflow-hidden rounded-lg border border-line bg-stone-100">
+                <div key={url} className="relative aspect-square overflow-hidden rounded-xl border border-line bg-paper">
                   <img src={url} alt={`Фото ${index + 1}`} className="size-full object-cover" />
-                  <button type="button" onClick={() => setPhotos(photos.filter((_, position) => position !== index))}
-                    className="absolute top-1 right-1 flex size-6 cursor-pointer items-center justify-center rounded-full bg-white/90 text-ink shadow">
+                  <button type="button" onClick={() => setPhotos(photos.filter((_, position) => position !== index))} aria-label="Убрать фото"
+                    className="absolute top-1.5 right-1.5 flex size-6 cursor-pointer items-center justify-center rounded-full bg-white/90 text-ink shadow">
                     <X className="size-3.5" />
                   </button>
                 </div>
               ))}
               {photos.length < 5 && (
-                <label className="flex aspect-square cursor-pointer flex-col items-center justify-center gap-1 rounded-lg border-2 border-dashed border-brand-200 bg-brand-50/40 text-brand-700 transition-colors hover:bg-brand-50">
+                <label className="flex aspect-square cursor-pointer flex-col items-center justify-center gap-1.5 rounded-xl border-2 border-dashed border-brand-200 bg-brand-50 text-brand-700 transition-colors hover:border-brand-500">
                   <ImagePlus className="size-6" />
-                  <span className="text-xs font-medium">добавить</span>
+                  <span className="text-xs font-semibold">добавить</span>
                   <input type="file" accept="image/jpeg,image/png" multiple className="hidden" onChange={(event) => add(event.target.files)} />
                 </label>
               )}
@@ -80,8 +92,8 @@ export function Upload({ onCreated }: Props) {
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle>Что вы знаете о товаре</CardTitle>
-            <CardDescription>Необязательно. Эти слова сервис тоже считает источником.</CardDescription>
+            <CardTitle>Что Вы знаете о товаре</CardTitle>
+            <CardDescription>Если Вы знаете то, что не указано на упаковке, впишите это, и тогда сервис это учтёт</CardDescription>
           </CardHeader>
           <CardContent className="grid grid-cols-1 gap-3 sm:grid-cols-3">
             <Select value={hints.category ?? ''} onChange={set('category')}>
@@ -89,26 +101,15 @@ export function Upload({ onCreated }: Props) {
               {categories.map((category) => <option key={category.key} value={category.title}>{category.title}</option>)}
             </Select>
             <Input placeholder="Цена, ₽" inputMode="decimal" value={hints.price ?? ''} onChange={set('price')} />
-            <Input placeholder="Вес или объём, например 500 г" value={hints.weight ?? ''} onChange={set('weight')} />
+            <Input placeholder="Вес или объём" value={hints.weight ?? ''} onChange={set('weight')} />
             <Textarea className="sm:col-span-3" placeholder="Уточнения, например: срок годности 6 месяцев, хранить в прохладном месте" value={hints.notes ?? ''} onChange={set('notes')} />
           </CardContent>
         </Card>
         {error && <p className="text-sm text-rose-700">{error}</p>}
-        <Button size="lg" disabled={!photos.length || busy} onClick={submit} className="self-start">
+        <Button size="lg" disabled={!photos.length || busy} onClick={submit} className="w-full sm:w-auto sm:self-end">
           {busy && <Loader2 className="animate-spin" />}
           Собрать черновик
         </Button>
-      </div>
-      <div className="flex flex-col gap-3 lg:pt-24">
-        {STEPS.map(({ icon: Icon, title, text }) => (
-          <div key={title} className="flex gap-3 rounded-xl border border-line bg-white p-4">
-            <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand-700"><Icon className="size-5" /></span>
-            <div>
-              <p className="text-sm font-medium">{title}</p>
-              <p className="mt-0.5 text-xs leading-relaxed text-muted">{text}</p>
-            </div>
-          </div>
-        ))}
       </div>
     </div>
   )

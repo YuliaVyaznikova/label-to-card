@@ -4,14 +4,14 @@ import type { ComponentProps } from 'react'
 import { cn } from '@/lib/utils'
 
 const buttonVariants = cva(
-  'inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/40 disabled:pointer-events-none disabled:opacity-50 [&_svg]:size-4 [&_svg]:shrink-0',
+  'inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/40 disabled:pointer-events-none disabled:opacity-50 [&_svg]:size-4 [&_svg]:shrink-0',
   {
     variants: {
       variant: {
         default: 'bg-brand-600 text-white shadow-sm hover:bg-brand-700',
-        outline: 'border border-line bg-white text-ink hover:bg-stone-50',
-        secondary: 'bg-stone-100 text-ink hover:bg-stone-200',
-        ghost: 'text-ink hover:bg-stone-100',
+        outline: 'border border-line bg-white text-ink hover:border-brand-200 hover:bg-brand-50',
+        secondary: 'bg-brand-50 text-brand-700 hover:bg-brand-100',
+        ghost: 'text-ink hover:bg-brand-50',
       },
       size: {
         default: 'h-10 px-4',

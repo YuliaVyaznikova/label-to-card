@@ -3,16 +3,16 @@ from statistics import mean
 from .moderation import caps_share
 
 ACTIONS = {
-    "name": "Сфотографируйте лицевую сторону упаковки с названием или впишите название.",
-    "composition": "Сфотографируйте часть этикетки с составом или впишите состав.",
-    "net_quantity": "Укажите массу или объём, сервис не нашёл их на фото.",
-    "shelf_life": "Укажите срок годности, сервис не нашёл его на фото.",
-    "storage": "Укажите условия хранения или сфотографируйте их на этикетке.",
-    "manufacturer": "Укажите изготовителя и его адрес.",
-    "energy_kcal": "Сфотографируйте таблицу пищевой ценности или впишите белки, жиры, углеводы и калорийность.",
-    "proteins_g": "Сфотографируйте таблицу пищевой ценности или впишите белки, жиры, углеводы и калорийность.",
-    "fats_g": "Сфотографируйте таблицу пищевой ценности или впишите белки, жиры, углеводы и калорийность.",
-    "carbohydrates_g": "Сфотографируйте таблицу пищевой ценности или впишите белки, жиры, углеводы и калорийность.",
+    "name": "Сфотографируйте лицевую сторону упаковки с названием или впишите название",
+    "composition": "Сфотографируйте часть этикетки с составом или впишите состав",
+    "net_quantity": "Укажите массу или объём, сервис не нашёл их на фото",
+    "shelf_life": "Укажите срок годности, сервис не нашёл его на фото",
+    "storage": "Укажите условия хранения или сфотографируйте их на этикетке",
+    "manufacturer": "Укажите изготовителя и его адрес",
+    "energy_kcal": "Сфотографируйте таблицу пищевой ценности или впишите белки, жиры, углеводы и калорийность",
+    "proteins_g": "Сфотографируйте таблицу пищевой ценности или впишите белки, жиры, углеводы и калорийность",
+    "fats_g": "Сфотографируйте таблицу пищевой ценности или впишите белки, жиры, углеводы и калорийность",
+    "carbohydrates_g": "Сфотографируйте таблицу пищевой ценности или впишите белки, жиры, углеводы и калорийность",
 }
 
 
@@ -29,12 +29,12 @@ def field_credit(field, threshold):
 def text_checks(title, description, description_checked, settings):
     length = len(description or "")
     return [
-        {"name": "title_present", "passed": bool(title), "message": "Добавьте название товара."},
-        {"name": "title_length", "passed": not title or 5 <= len(title) <= 80, "message": "Название должно быть от 5 до 80 символов."},
-        {"name": "title_case", "passed": caps_share(title) <= 0.6, "message": "Не набирайте название заглавными буквами."},
+        {"name": "title_present", "passed": bool(title), "message": "Добавьте название товара"},
+        {"name": "title_length", "passed": not title or 5 <= len(title) <= 80, "message": "Название должно быть от 5 до 80 символов"},
+        {"name": "title_case", "passed": caps_share(title) <= 0.6, "message": "Не набирайте название заглавными буквами"},
         {"name": "description_length", "passed": settings["min_length"] <= length <= settings["max_length"],
-         "message": f"Описание должно быть от {settings['min_length']} до {settings['max_length']} символов."},
-        {"name": "description_checked", "passed": description_checked, "message": "Описание не прошло проверку фактов, поправьте его."},
+         "message": f"Описание должно быть от {settings['min_length']} до {settings['max_length']} символов"},
+        {"name": "description_checked", "passed": description_checked, "message": "Описание не прошло проверку фактов, поправьте его"},
     ]
 
 
@@ -49,11 +49,11 @@ def readiness(fields, fields_spec, photo_checks, text_list, threshold):
     for name in required:
         field = fields[name]
         if field["source"] == "none":
-            action = ACTIONS.get(name, f"Заполните поле «{fields_spec[name]['title']}».")
+            action = ACTIONS.get(name, f"Заполните поле «{fields_spec[name]['title']}»")
         elif field["source"] == "conflict":
-            action = f"Выберите верное значение поля «{fields_spec[name]['title']}»."
+            action = f"Выберите верное значение поля «{fields_spec[name]['title']}»"
         elif field["source"] == "photo" and field["confidence"] < threshold:
-            action = f"Проверьте поле «{fields_spec[name]['title']}», текст на фото читается плохо."
+            action = f"Проверьте поле «{fields_spec[name]['title']}», текст на фото читается плохо"
         else:
             continue
         if action not in seen:

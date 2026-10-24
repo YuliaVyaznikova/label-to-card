@@ -15,7 +15,7 @@ export function PhotoViewer({ photos, lines, highlights, active, onActive }: Pro
   const all = showAll ? lines.filter((line) => line.photo === photo.number) : []
   return (
     <div className="flex flex-col gap-3">
-      <div className="relative overflow-hidden rounded-xl border border-line bg-stone-200/40">
+      <div className="relative overflow-hidden rounded-2xl border border-line bg-white">
         <img src={photo.url} alt={`Фото ${photo.number}`} className="block h-auto w-full" />
         <svg viewBox={`0 0 ${width} ${height}`} preserveAspectRatio="none" className="pointer-events-none absolute inset-0 h-full w-full">
           {all.map((line) => (
@@ -26,7 +26,7 @@ export function PhotoViewer({ photos, lines, highlights, active, onActive }: Pro
             const [x1, y1, x2, y2] = item.box as number[]
             return (
               <rect key={index} x={x1 - pad} y={y1 - pad} width={x2 - x1 + 2 * pad} height={y2 - y1 + 2 * pad} rx={pad}
-                fill="rgba(250,204,21,0.22)" stroke="#d99a06" strokeWidth={width / 220} />
+                fill="rgba(255,203,5,0.24)" stroke="#e0a800" strokeWidth={width / 200} />
             )
           })}
         </svg>
@@ -37,9 +37,9 @@ export function PhotoViewer({ photos, lines, highlights, active, onActive }: Pro
             const count = highlights.filter((mark) => mark.photo === item.number).length
             return (
               <button key={item.number} type="button" onClick={() => onActive(item.number)}
-                className={cn('relative size-14 cursor-pointer overflow-hidden rounded-lg border-2 bg-white', item.number === photo.number ? 'border-brand-600' : 'border-transparent opacity-80 hover:opacity-100')}>
+                className={cn('relative size-14 cursor-pointer overflow-hidden rounded-xl border-2 bg-white', item.number === photo.number ? 'border-brand-600' : 'border-transparent opacity-75 hover:opacity-100')}>
                 <img src={item.url} alt="" className="size-full object-cover" />
-                {count > 0 && <span className="absolute top-1 right-1 size-2.5 rounded-full bg-amber-400 ring-2 ring-white" />}
+                {count > 0 && <span className="absolute top-1 right-1 size-2.5 rounded-full bg-sun ring-2 ring-white" />}
               </button>
             )
           })}

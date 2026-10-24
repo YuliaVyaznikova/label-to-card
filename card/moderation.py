@@ -33,27 +33,27 @@ def moderate(title, description, hints, label_text, category, category_spec):
     for place, text in texts.items():
         if found(PHONE, text) or found(LINK, text) or found(HANDLE, text):
             issues.append({"rule": "contacts", "severity": "block", "field": place,
-                           "message": f"В поле «{place}» есть контакты или ссылка. Площадка не разрешает их в карточке."})
+                           "message": f"В поле «{place}» есть контакты или ссылка, площадка не разрешает их в карточке"})
         if found(MEDICAL, text):
             issues.append({"rule": "medical_claims", "severity": "block", "field": place,
-                           "message": f"В поле «{place}» есть обещание лечебного эффекта. Для пищевых продуктов это запрещено."})
+                           "message": f"В поле «{place}» есть обещание лечебного эффекта, для пищевых продуктов это запрещено"})
     label = (label_text or "").lower().replace("ё", "е")
     for claim in claims(notes):
         if claim not in label:
             issues.append({"rule": "unsupported_claim", "severity": "warning", "field": "уточнения",
-                           "message": f"Утверждение «{claim}…» есть только в ваших словах. Приложите документ, который его подтверждает."})
+                           "message": f"Утверждение «{claim}…» есть только в Ваших словах, приложите документ, который его подтверждает"})
     if title:
         if caps_share(title) > 0.6 and len(title) > 6:
-            issues.append({"rule": "title_caps", "severity": "warning", "field": "название", "message": "Название набрано заглавными буквами."})
+            issues.append({"rule": "title_caps", "severity": "warning", "field": "название", "message": "Название набрано заглавными буквами"})
         if found(DISCOUNT, title) or re.search(r"\d+\s?(?:₽|руб)", title.lower()):
-            issues.append({"rule": "title_price", "severity": "warning", "field": "название", "message": "Цену и скидки в название не пишут."})
+            issues.append({"rule": "title_price", "severity": "warning", "field": "название", "message": "Цену и скидки в название не пишут"})
         if re.search(EMOJI, title):
-            issues.append({"rule": "title_emoji", "severity": "warning", "field": "название", "message": "Уберите эмодзи из названия."})
+            issues.append({"rule": "title_emoji", "severity": "warning", "field": "название", "message": "Уберите эмодзи из названия"})
     chosen = hints.get("category")
     if chosen and category and category["value"] and chosen != category["value"] and category["confidence"] >= 0.6:
         issues.append({"rule": "category_mismatch", "severity": "warning", "field": "категория",
-                       "message": f"Вы выбрали «{chosen}», а по фото товар похож на «{category['value']}»."})
+                       "message": f"Вы выбрали «{chosen}», а по фото товар похож на «{category['value']}»"})
     if category_spec and category_spec.get("animal"):
         issues.append({"rule": "vet_documents", "severity": "warning", "field": "категория",
-                       "message": "Для продукции животного происхождения площадке могут понадобиться ветеринарные документы. Уточните требования площадки."})
+                       "message": "Для продукции животного происхождения площадке могут понадобиться ветеринарные документы, уточните её требования"})
     return issues

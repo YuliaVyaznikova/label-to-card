@@ -42,13 +42,13 @@ def photo_checks(qualities, lines, fields):
     has_composition = fields.get("composition", {}).get("source") == "photo" or any("состав" in norm(line["text"]) for line in lines.values())
     checks = [
         {"name": "two_photos", "passed": len(qualities) >= 2, "message": "Добавьте ещё одно фото: лицевую сторону и этикетку."},
-        {"name": "composition_photo", "field": "composition", "passed": has_composition, "message": "Сфотографируйте часть этикетки, где написан состав."},
+        {"name": "composition_photo", "field": "composition", "passed": has_composition, "message": "Сфотографируйте часть этикетки, где написан состав"},
     ]
     for number, quality in enumerate(qualities, 1):
         checks.append({"name": f"photo_{number}_size", "passed": quality["size"],
-                       "message": f"Фото {number} слишком маленькое, снимите ближе или в большем разрешении."})
+                       "message": f"Фото {number} слишком маленькое, снимите ближе или в большем разрешении"})
         checks.append({"name": f"photo_{number}_sharp", "passed": quality["sharp"],
-                       "message": f"Фото {number} размыто, снимите ещё раз, держа телефон неподвижно."})
+                       "message": f"Фото {number} размыто, снимите ещё раз, держа телефон неподвижно"})
         checks.append({"name": f"photo_{number}_light", "passed": quality["light"],
-                       "message": f"Фото {number} слишком тёмное или пересвеченное."})
+                       "message": f"Фото {number} слишком тёмное или пересвеченное"})
     return checks
