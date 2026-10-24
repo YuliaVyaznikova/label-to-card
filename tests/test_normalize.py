@@ -80,3 +80,9 @@ def test_present_reads_ocr_variants_of_nutrient_names():
 def test_title_in_capitals_is_brought_to_sentence_case():
     assert parse("text", "name", "ХЛОПЬЯ ПШЕННЫЕ НЕ ТРЕБУЮЩИЕ ВАРКИ") == {"value": "Хлопья пшенные не требующие варки"}
     assert parse("text", "name", "Творог мягкий") == {"value": "Творог мягкий"}
+
+
+def test_composition_drops_label_word():
+    assert parse("text", "composition", "Состав: молоко нормализованное, закваска") == {"value": "молоко нормализованное, закваска"}
+    assert parse("text", "composition", "СОСТАВ молоко") == {"value": "молоко"}
+    assert parse("text", "composition", "Составной продукт") == {"value": "Составной продукт"}

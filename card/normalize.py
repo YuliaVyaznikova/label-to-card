@@ -141,6 +141,8 @@ def parse(kind, field, raw):
         return parse_nutrient(raw, field)
     if field == "name":
         return parse_title(raw)
+    if field == "composition":
+        return parse_text(re.sub(r"^\s*состав(?![а-яё])\s*:?", "", raw or "", flags=re.IGNORECASE))
     return parse_text(raw)
 
 
