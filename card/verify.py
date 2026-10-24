@@ -5,7 +5,7 @@ from rapidfuzz import fuzz
 from .normalize import beside, norm, parse, parse_quantity, present, tokens
 
 NUMERIC = {"quantity", "duration", "energy", "number", "percent"}
-SKELETON = str.maketrans({"a": "а", "b": "ь", "c": "с", "d": "д", "e": "е", "h": "н", "k": "к", "m": "т", "o": "о",
+SKELETON = str.maketrans({"a": "а", "b": "ь", "c": "с", "d": "д", "e": "е", "h": "н", "k": "к", "m": "т", "n": "п", "o": "о",
                           "p": "р", "r": "г", "t": "т", "u": "и", "x": "х", "y": "у"})
 
 
@@ -90,11 +90,27 @@ def anchored(anchor, lines, ids):
     return anchor in norm(photo_text(lines, photo[max(0, position - 1):position] + ids))
 
 
-def evidence(lines, ids):
-    return [
-        {"source": "photo", "line": i, "photo": lines[i]["photo"], "text": lines[i]["text"], "box": lines[i]["box"]}
-        for i in ids
-    ]
+def quoted(word, raw):
+    a, b = skeleton(word), skeleton(raw)
+    if len(a) < 2:
+        return False
+    if len(a) <= 3:
+        return a in b.split()
+    return fuzz.partial_ratio(a, b) >= 80
+
+
+def evidence(lines, ids, raw):
+    items = []
+    for i in ids:
+        line = lines[i]
+        words = [word for word in line.get("words", []) if quoted(word["text"], raw)]
+        text, box = line["text"], line["box"]
+        if words:
+            text = " ".join(word["text"] for word in words)
+            box = [min(word["box"][0] for word in words), min(word["box"][1] for word in words),
+                   max(word["box"][2] for word in words), max(word["box"][3] for word in words)]
+        items.append({"source": "photo", "line": i, "photo": line["photo"], "text": text, "box": box})
+    return items
 
 
 def check_field(name, spec, proposal, lines, farmer_text, settings):
@@ -129,7 +145,7 @@ def check_field(name, spec, proposal, lines, farmer_text, settings):
         if spec.get("anchor") and not anchored(spec["anchor"], lines, cited):
             return empty, {**entry, "decision": "rejected", "reason": f"рядом нет слова «{spec['anchor']}»", "score": round(score, 3)}
     confidence = mean(lines[i]["confidence"] for i in cited) * min(score, 1.0)
-    result = {"value": parsed, "raw": raw, "source": "photo", "confidence": round(confidence, 3), "evidence": evidence(lines, cited)}
+    result = {"value": parsed, "raw": raw, "source": "photo", "confidence": round(confidence, 3), "evidence": evidence(lines, cited, raw)}
     return result, {**entry, "decision": "accepted", "score": round(score, 3), "lines": cited}
 
 

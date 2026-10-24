@@ -17,6 +17,7 @@ class Classifier:
         self.categories = categories["categories"]
         self.model = None
         self.processor = None
+        self.memo = {}
         self.pairs = [(key, label) for key, spec in self.categories.items() for label in spec["labels"]]
 
     def load(self):
@@ -29,6 +30,12 @@ class Classifier:
             self.model = pretrained(AutoModel, self.settings["model"]).eval().to(self.device)
 
     def image_scores(self, paths):
+        key = tuple(str(path) for path in paths)
+        if key not in self.memo:
+            self.memo = {key: self.score_images(paths)}
+        return self.memo[key]
+
+    def score_images(self, paths):
         self.load()
         images = [Image.open(path).convert("RGB") for path in paths]
         texts = [f"фото товара: {label}" for _, label in self.pairs]
@@ -47,11 +54,12 @@ class Classifier:
         total = sum(hits.values())
         return {key: count / total for key, count in hits.items()} if total else None
 
-    def classify(self, paths, text):
+    def classify(self, paths, text, name=None):
         scores = self.image_scores(paths)
-        keywords = self.keyword_scores(text)
+        named = self.keyword_scores(name) if name else None
+        keywords = named or self.keyword_scores(text)
         if keywords:
-            weight = self.settings["keyword_weight"]
+            weight = self.settings["name_weight" if named else "keyword_weight"]
             scores = {key: (1 - weight) * value + weight * keywords[key] for key, value in scores.items()}
         ranked = sorted(scores.items(), key=lambda item: item[1], reverse=True)
         top, confidence = ranked[0]

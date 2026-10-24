@@ -126,3 +126,12 @@ def test_advertising_text_is_not_taken_for_composition():
     fields, log, _ = verify(SPEC, {"composition": {"raw": "100% НАТУРАЛЬНОЕ МОЛОКО", "lines": ["p1:l1"], "source": "photo"}}, lines, {}, SETTINGS)
     assert fields["composition"]["source"] == "none"
     assert log[0]["reason"] == "рядом нет слова «состав»"
+
+
+def test_evidence_box_covers_only_quoted_words():
+    lines = {"p1:l1": {"id": "p1:l1", "photo": 1, "text": "88 Творог мягкий 400 г", "confidence": 0.9, "box": [0, 0, 300, 100],
+                       "words": [{"text": "88", "box": [0, 0, 20, 100]}, {"text": "Творог мягкий", "box": [30, 10, 200, 60]},
+                                 {"text": "400 г", "box": [220, 70, 300, 100]}]}}
+    fields, _, _ = verify(NAME, {"name": {"raw": "Творог мягкий", "lines": ["p1:l1"], "source": "photo"}}, lines, {}, SETTINGS)
+    assert fields["name"]["evidence"][0]["box"] == [30, 10, 200, 60]
+    assert fields["name"]["evidence"][0]["text"] == "Творог мягкий"

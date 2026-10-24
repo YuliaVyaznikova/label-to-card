@@ -7,7 +7,7 @@ import cv2
 
 from .quality import fit, read_image
 
-VERSION = 2
+VERSION = 3
 ROTATIONS = {90: cv2.ROTATE_90_CLOCKWISE, 180: cv2.ROTATE_180, 270: cv2.ROTATE_90_COUNTERCLOCKWISE}
 
 
@@ -32,6 +32,7 @@ def join(items):
         "confidence": round(sum(item["confidence"] * len(item["text"]) for item in items) / max(size, 1), 3),
         "box": [min(item["box"][0] for item in items), min(item["box"][1] for item in items),
                 max(item["box"][2] for item in items), max(item["box"][3] for item in items)],
+        "words": [{"text": item["text"], "box": item["box"]} for item in items],
     }
 
 

@@ -48,6 +48,9 @@ class Pipeline:
         proposals, call = extract(self.vlm, photos, lines, fields_spec, hints, self.config["vlm"]["max_pixels"], model)
         timings["extract"] = round(time.time() - step, 2)
         fields, log, conflicts = verify(fields_spec, proposals, lines, hints, self.config["verify"])
+        name = (fields.get("name") or {}).get("value") or {}
+        if name.get("value"):
+            category = self.classifier.classify(photos, label_text, name["value"])
         draft = {
             "category": category, "fields": fields, "log": log, "lines": lines, "photos": qualities,
             "hints": hints, "proposals": proposals, "calls": [call], "conflicts": conflicts,

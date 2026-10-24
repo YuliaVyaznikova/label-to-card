@@ -1,6 +1,8 @@
 from card.describe import problems
 from card.moderation import moderate
 from card.readiness import readiness
+from card.classify import Classifier
+from card.config import load_categories
 from card.store import Store
 
 
@@ -36,3 +38,11 @@ def test_store_keeps_status_from_column(tmp_path):
     data = store.get(draft_id)
     store.put(draft_id, {**data, "error": "boom"}, "failed")
     assert store.get(draft_id)["status"] == "failed"
+
+
+def test_verified_name_outweighs_stray_label_words():
+    classifier = Classifier({"keyword_weight": 0.3, "name_weight": 0.6}, load_categories())
+    classifier.image_scores = lambda paths: {key: 1 / len(classifier.categories) for key in classifier.categories}
+    label = "хлопья пшенные варить на молоке молочную кашу"
+    assert classifier.classify([], label)["key"] == "dairy"
+    assert classifier.classify([], label, "Хлопья пшенные не требующие варки")["key"] == "grocery"

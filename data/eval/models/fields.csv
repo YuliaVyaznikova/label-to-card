@@ -41,7 +41,7 @@ qwen/qwen3-vl-30b-a3b-instruct,full,nocheck,proteins_g,30,29,0.966,0.933
 qwen/qwen3-vl-30b-a3b-instruct,full,nocheck,fats_g,30,28,0.929,0.867
 qwen/qwen3-vl-30b-a3b-instruct,full,nocheck,carbohydrates_g,30,28,0.893,0.833
 qwen/qwen3-vl-30b-a3b-instruct,full,pipeline,name,30,26,0.692,0.6
-qwen/qwen3-vl-30b-a3b-instruct,full,pipeline,composition,30,22,0.636,0.467
+qwen/qwen3-vl-30b-a3b-instruct,full,pipeline,composition,30,23,0.652,0.5
 qwen/qwen3-vl-30b-a3b-instruct,full,pipeline,net_quantity,30,15,0.667,0.333
 qwen/qwen3-vl-30b-a3b-instruct,full,pipeline,energy_kcal,30,21,0.81,0.567
 qwen/qwen3-vl-30b-a3b-instruct,full,pipeline,proteins_g,30,21,1.0,0.7

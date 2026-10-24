@@ -1,10 +1,10 @@
 model,variant,method,metric,value,low,high,items
-qwen/qwen3-vl-235b-a22b-instruct,full,baseline,precision,0.876,0.851,0.9,120
-qwen/qwen3-vl-235b-a22b-instruct,full,baseline,recall,0.833,0.812,0.857,120
-qwen/qwen3-vl-235b-a22b-instruct,full,nocheck,precision,0.849,0.823,0.876,120
-qwen/qwen3-vl-235b-a22b-instruct,full,nocheck,recall,0.775,0.744,0.807,120
+qwen/qwen3-vl-235b-a22b-instruct,full,baseline,precision,0.875,0.849,0.898,120
+qwen/qwen3-vl-235b-a22b-instruct,full,baseline,recall,0.832,0.81,0.856,120
+qwen/qwen3-vl-235b-a22b-instruct,full,nocheck,precision,0.847,0.821,0.875,120
+qwen/qwen3-vl-235b-a22b-instruct,full,nocheck,recall,0.774,0.743,0.806,120
 qwen/qwen3-vl-235b-a22b-instruct,full,pipeline,precision,0.856,0.826,0.885,120
-qwen/qwen3-vl-235b-a22b-instruct,full,pipeline,recall,0.557,0.518,0.598,120
+qwen/qwen3-vl-235b-a22b-instruct,full,pipeline,recall,0.558,0.519,0.599,120
 qwen/qwen3-vl-235b-a22b-instruct,front_only,baseline,precision,0.73,0.655,0.804,120
 qwen/qwen3-vl-235b-a22b-instruct,front_only,baseline,recall,0.483,0.433,0.537,120
 qwen/qwen3-vl-235b-a22b-instruct,front_only,baseline,invented_share,0.135,0.083,0.19,120

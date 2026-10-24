@@ -52,7 +52,8 @@ def test_percent():
 def test_norm_replaces_latin_lookalikes_in_russian_text():
     assert norm("He содержит ГМО") == "не содержит гмо"
     assert norm("Maсса нетто 500 г") == "масса нетто 500 г"
-    assert norm("НАТРИЯ Е50О (ii)") == "натрия е500 ii"
+    assert norm("НАТРИЯ Е50О (ii)") == "натрия е 500 ii"
+    assert norm("OT 2C до6°C") == "от 2 с до 6 с"
 
 
 def test_norm_keeps_english_words():

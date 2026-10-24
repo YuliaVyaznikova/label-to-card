@@ -27,6 +27,7 @@ classify:
   model: google/siglip2-base-patch16-224
   device: cpu
   keyword_weight: 0.3
+  name_weight: 0.6
 
 verify:
   text_ratio: 85

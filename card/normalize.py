@@ -34,9 +34,11 @@ def norm(text):
     text = re.sub(r"\*(?=[^\W\d_])", "ж", text or "")
     text = re.sub(r"[^\W\d_]+", lambda match: cyrillic(match.group(0)), text)
     text = text.lower().replace("ё", "е")
-    text = re.sub(r"(?<=\d)о|о(?=\d)", "0", text)
+    text = re.sub(r"(?<=\d)о(?![а-яa-z])", "0", text)
     text = re.sub(r"(?<=\d)r(?![a-zа-я])", "г", text)
+    text = re.sub(r"(?<![\d.,])6(?=ел[кk])", "б", text)
     text = re.sub(r"(\d)\s*[,.]\s*(\d)", r"\1.\2", text)
+    text = re.sub(r"(?<=\d)(?=[^\W\d_])|(?<=[^\W\d_])(?=\d)", " ", text)
     text = re.sub(r"[^\w.%]+", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 
@@ -143,7 +145,7 @@ def parse(kind, field, raw):
 
 
 def nutrient_text(text):
-    return re.sub(r"(?<![\d.])6(?=ел)", "б", re.sub(PER_100, " ", text))
+    return re.sub(PER_100, " ", text)
 
 
 def nutrient_numbers(text, field):
