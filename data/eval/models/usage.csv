@@ -1,0 +1,12 @@
+,,prompt_tokens,prompt_tokens,completion_tokens,completion_tokens,seconds,seconds
+,,sum,median,sum,median,sum,median
+model,method,,,,,,
+qwen/qwen3-vl-235b-a22b-instruct,baseline,229890,2799.0,12090,150.0,1141.9,12.0
+qwen/qwen3-vl-235b-a22b-instruct,nocheck,282297,3252.5,30735,433.0,1251.6,17.4
+qwen/qwen3-vl-235b-a22b-instruct,pipeline,282297,3252.5,30735,433.0,1251.6,17.4
+qwen/qwen3-vl-30b-a3b-instruct,baseline,229890,2799.0,15109,200.5,2680.6,16.7
+qwen/qwen3-vl-30b-a3b-instruct,nocheck,282297,3252.5,25991,344.5,1831.2,23.3
+qwen/qwen3-vl-30b-a3b-instruct,pipeline,282297,3252.5,25991,344.5,1831.2,23.3
+qwen/qwen3-vl-8b-instruct,baseline,229890,2799.0,12081,142.0,620.2,9.2
+qwen/qwen3-vl-8b-instruct,nocheck,282297,3252.5,33066,449.0,1089.4,11.3
+qwen/qwen3-vl-8b-instruct,pipeline,282297,3252.5,33066,449.0,1089.4,11.3

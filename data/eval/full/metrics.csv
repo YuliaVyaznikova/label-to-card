@@ -1,0 +1,7 @@
+model,variant,method,items,precision,recall,filled,with_truth,invented,ablated,invented_share
+qwen/qwen3-vl-235b-a22b-instruct,full,baseline,120,0.876,0.833,799,840,0,0,
+qwen/qwen3-vl-235b-a22b-instruct,full,nocheck,120,0.849,0.775,767,840,0,0,
+qwen/qwen3-vl-235b-a22b-instruct,full,pipeline,120,0.856,0.557,547,840,0,0,
+qwen/qwen3-vl-235b-a22b-instruct,front_only,baseline,120,0.73,0.483,159,240,75,556,0.135
+qwen/qwen3-vl-235b-a22b-instruct,front_only,nocheck,120,0.713,0.475,160,240,45,556,0.081
+qwen/qwen3-vl-235b-a22b-instruct,front_only,pipeline,120,0.692,0.308,107,240,2,556,0.004

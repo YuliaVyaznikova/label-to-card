@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+data/drafts/
+data/cache/
+data/off/images/
+web/node_modules/
+web/dist/
+data/off/pages/
+data/eval/sanity/
+data/eval/models_check/

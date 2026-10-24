@@ -1,0 +1,4346 @@
+[
+ {
+  "id": "off_4810268031793",
+  "code": "4810268031793",
+  "category": "other",
+  "truth": {
+   "name": "Греческий йогурт Натуральный 2%",
+   "composition": "молоко нормализованное пастеризованное, закваска, состоящая из термофильных молочнокислых стрептококков и болгарской молочнокислой палочки.\nМожет содержать следы глютена, ореха.",
+   "net_quantity": "250 г",
+   "storage": null,
+   "energy_kcal": 66.8,
+   "proteins_g": 8,
+   "fats_g": 2,
+   "carbohydrates_g": 4.2
+  },
+  "photos": [
+   {
+    "imgid": "9",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/1793/9.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/1793/5.jpg"
+   },
+   {
+    "imgid": "10",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/1793/10.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4601674084714",
+  "code": "4601674084714",
+  "category": "other",
+  "truth": {
+   "name": "HEINZ Томатный Кетчуп",
+   "composition": "Вода, паста томатная, сахар, уксус натуральный, соль, экстракты специй (содержат сельдерей)",
+   "net_quantity": "320 g",
+   "storage": null,
+   "energy_kcal": 110,
+   "proteins_g": 1,
+   "fats_g": 0.1,
+   "carbohydrates_g": 25
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/167/408/4714/1.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/167/408/4714/5.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/167/408/4714/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600699501398",
+  "code": "4600699501398",
+  "category": "grocery",
+  "truth": {
+   "name": "Altero Golden масло подсолнечное с добавлением оливкового",
+   "composition": "масло подсолнечное рафинированное дезодорированное вымороженное; масло оливковое рафинированное",
+   "net_quantity": "810 мл, 745 г",
+   "storage": null,
+   "energy_kcal": 899,
+   "proteins_g": 0,
+   "fats_g": 99.9,
+   "carbohydrates_g": 0
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/1398/2.jpg"
+   },
+   {
+    "imgid": "1",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/1398/1.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4810268030369",
+  "code": "4810268030369",
+  "category": "other",
+  "truth": {
+   "name": "TEOS Йогурт Греческий 2%",
+   "composition": "молоко нормализованное\r\nпастеризованное, закваска",
+   "net_quantity": "140 г",
+   "storage": null,
+   "energy_kcal": 66.8,
+   "proteins_g": 8,
+   "fats_g": 2,
+   "carbohydrates_g": 4.2
+  },
+  "photos": [
+   {
+    "imgid": "14",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/0369/14.jpg"
+   },
+   {
+    "imgid": "15",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/0369/15.jpg"
+   },
+   {
+    "imgid": "16",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/0369/16.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4810065006079",
+  "code": "4810065006079",
+  "category": "other",
+  "truth": {
+   "name": "Молоко сгущенное цельное с сахаром ГОСТ 31688-2012",
+   "composition": "Молоко нормализованное,\r\nсахар (сахароза, лактоза).",
+   "net_quantity": "380 г",
+   "storage": null,
+   "energy_kcal": 330,
+   "proteins_g": 8,
+   "fats_g": 8.5,
+   "carbohydrates_g": 56
+  },
+  "photos": [
+   {
+    "imgid": "11",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/006/500/6079/11.jpg"
+   },
+   {
+    "imgid": "6",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/006/500/6079/6.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4810268023378",
+  "code": "4810268023378",
+  "category": "other",
+  "truth": {
+   "name": "йогурт",
+   "composition": "изготовлен из творога (молоко обезжиренное пастеризованное с использованием закваски), сливок пастеризованных, вкусового наполнителя «Кокос - миндаль» (сахар, вода; миндаль, кокос; стабилизаторы - дикрахмалфосфат оксипропилированный, каррагинан и его калиевая, натриевая, аммонийная соли, включая фурцеллеран; натуральный ароматизатор - «Марципан», ароматизаторы - «Коко», «Opex»; консервант сорбат калия), сахара, комплексной пищевой добавки (желатин, стабилизаторы - гуаровая камедь, камедь рожкового дерева). Содержит орех. Может содержать следы яйца, глютена.",
+   "net_quantity": "120 г",
+   "storage": null,
+   "energy_kcal": 111.5,
+   "proteins_g": 7,
+   "fats_g": 3.5,
+   "carbohydrates_g": 13
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/802/3378/5.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/802/3378/3.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/802/3378/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622210457745",
+  "code": "7622210457745",
+  "category": "sweets",
+  "truth": {
+   "name": "Печенье \"Юбилейное\" традиционное",
+   "composition": "мука пшеничная, сахар, масла растительные (рапсовое, пальмовое), вода, крахмал кукурузный, сироп глюкозно-фруктозный или сироп инвертный (сахар, вода, регулятор кислотности (кислота лимонная)), разрыхлители (гидрокарбонат натрия, гидрокарбонат аммония), соль, продукт яичный, ароматизатор, эмульгатор (лецитин соевый), витаминно-минеральный комплекс (ниацин, витамин В6, витамин В1, витамин В2, фолиевая кислота).",
+   "net_quantity": "112 г",
+   "storage": null,
+   "energy_kcal": 467,
+   "proteins_g": 7.5,
+   "fats_g": 18,
+   "carbohydrates_g": 67
+  },
+  "photos": [
+   {
+    "imgid": "6",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/045/7745/6.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/045/7745/5.jpg"
+   },
+   {
+    "imgid": "7",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/045/7745/7.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600300000739",
+  "code": "4600300000739",
+  "category": "other",
+  "truth": {
+   "name": "КАКАО Золотой ярлык",
+   "composition": "какао-порошок, ароматизатор \"Ваниль\"",
+   "net_quantity": "100 г",
+   "storage": null,
+   "energy_kcal": 330,
+   "proteins_g": 24,
+   "fats_g": 15,
+   "carbohydrates_g": 10
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/030/000/0739/7.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/030/000/0739/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607004891373",
+  "code": "4607004891373",
+  "category": "cheese",
+  "truth": {
+   "name": "Творожный слив.сыр hochland",
+   "composition": "Творог (молоко, сливки, бактериальная закваска молочнокислых микроорганизмов (L. lactis), фермент микробного происхождения), сыры мягкие, молоко сухое обезжиренное, соль, комплексная пищевая добавка (стабилизаторы камедь рожкового дерева и гуаровая камедь), регулятор кислотности лимонная кислота, вода питьевая.",
+   "net_quantity": "140g",
+   "storage": null,
+   "energy_kcal": 238,
+   "proteins_g": 6.1,
+   "fats_g": 22.2,
+   "carbohydrates_g": 3.5
+  },
+  "photos": [
+   {
+    "imgid": "12",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/489/1373/12.jpg"
+   },
+   {
+    "imgid": "11",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/489/1373/11.jpg"
+   },
+   {
+    "imgid": "9",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/489/1373/9.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607065712129",
+  "code": "4607065712129",
+  "category": "other",
+  "truth": {
+   "name": "Crisp buckweat bread",
+   "composition": "курпа гречневая ядрица, смесь витаминно-минеральная «Колосок-1» (В1, В2, В6, РР, фолиевая кислота, железо).",
+   "net_quantity": "100 g",
+   "storage": null,
+   "energy_kcal": 370,
+   "proteins_g": 12,
+   "fats_g": 3,
+   "carbohydrates_g": 66
+  },
+  "photos": [
+   {
+    "imgid": "8",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/571/2129/8.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/571/2129/2.jpg"
+   },
+   {
+    "imgid": "6",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/571/2129/6.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600699503910",
+  "code": "4600699503910",
+  "category": "other",
+  "truth": {
+   "name": "Майонез 67 % Провансаль 800",
+   "composition": "подсолнечное масло, вода, сахар 2 %, яичный желток, соль поваренная 1,2 %,\r\nуксус, горчичное масло,",
+   "net_quantity": "800 мл, 750 г",
+   "storage": null,
+   "energy_kcal": 613,
+   "proteins_g": 0.4,
+   "fats_g": 67,
+   "carbohydrates_g": 2.1
+  },
+  "photos": [
+   {
+    "imgid": "11",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/3910/11.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/3910/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4690329014077",
+  "code": "4690329014077",
+  "category": "sweets",
+  "truth": {
+   "name": "Молочный шоколад Babyfox",
+   "composition": "Сахар, молоко сухое цельное, масло какао, какао тертое, молоко сухое обезжиренное, жир молочный, эмульгаторы: соевый лецитин, Е476; ароматизатор; начинка (сахар, масло растительное (содержит антиокислитель - концентрат смеси токоферолов) молоко сухое цельное, жир молочный, молоко сухое обезжиренное, эмульгатор соевый лецитин, соль, натуральный ароматизатор). следов орехов, арахиса, глютена.",
+   "net_quantity": "45 г",
+   "storage": null,
+   "energy_kcal": 570,
+   "proteins_g": 8,
+   "fats_g": 38,
+   "carbohydrates_g": 49
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/032/901/4077/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/032/901/4077/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600823122154",
+  "code": "4600823122154",
+  "category": "sweets",
+  "truth": {
+   "name": "шоколад элитный 75%",
+   "composition": "Какао тёртое, сахар, какао-порошок, масло какао, эмульгаторы: _лецитин соевый_, Е476, ароматизатор «Ваниль»,",
+   "net_quantity": "90г",
+   "storage": null,
+   "energy_kcal": 520,
+   "proteins_g": 11,
+   "fats_g": 36,
+   "carbohydrates_g": 32
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/082/312/2154/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/082/312/2154/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607035892370",
+  "code": "4607035892370",
+  "category": "other",
+  "truth": {
+   "name": "Томатная паста",
+   "composition": "Томатная паста",
+   "net_quantity": "270 г",
+   "storage": null,
+   "energy_kcal": 90,
+   "proteins_g": 5,
+   "fats_g": 0.5,
+   "carbohydrates_g": 16
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/703/589/2370/5.jpg"
+   },
+   {
+    "imgid": "1",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/703/589/2370/1.jpg"
+   },
+   {
+    "imgid": "6",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/703/589/2370/6.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622210457554",
+  "code": "7622210457554",
+  "category": "sweets",
+  "truth": {
+   "name": "Юбилейное молочное",
+   "composition": "мука пшеничная, сахар, масла растительные (рапсовое, пальмовое), вода, сироп глюкозно-фруктозный, молоко сухое обезжиренное, разрыхлители (гидрокарбонат натрия, гидрокарбонат аммония), ароматизатор, соль, продукт яичный, эмульгатор (лецитин соевый), витаминно-натуральный комплекс (ниацин, витамин B6, витамин B1, витамин B2, фолиевая кислота). МОЖЕТ СОДЕРЖАТЬ СЛЕДЫ ОРЕХОВ.",
+   "net_quantity": "112 g",
+   "storage": null,
+   "energy_kcal": 460,
+   "proteins_g": 8.1,
+   "fats_g": 17.5,
+   "carbohydrates_g": 66.5
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/045/7554/2.jpg"
+   },
+   {
+    "imgid": "12",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/045/7554/12.jpg"
+   },
+   {
+    "imgid": "10",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/045/7554/10.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_5000159390729",
+  "code": "5000159390729",
+  "category": "sweets",
+  "truth": {
+   "name": "Twix Xtra",
+   "composition": "Молочный шоколад (общий сухой остаток какао не менее 25%, сухой молочный остаток не менее 20%): сахар, какао масло, какао тертое, лактоза, сухое цельное молоко, сухая молочная сыворотка, молочный жир, эмульгатор (соевый лецитин), ароматизатор (ванилин); карамель: глюкозный сисол (кукурузный, пшеничный, сахар - масло пальмовое рафинированное дезодорированное, сухое обезжиренное молоко, соль, ароматизатор (ванилин); печенье: пшеничная мука, хир специального назначения (пальмовое масло), сахар, какао порошок, соль, разрыхлитель (гидрокарбонат натрия), ароматизатор (ванилин). Содержит глютен.",
+   "net_quantity": "2 x 41 г",
+   "storage": null,
+   "energy_kcal": 494,
+   "proteins_g": 3.9,
+   "fats_g": 24,
+   "carbohydrates_g": 65.4
+  },
+  "photos": [
+   {
+    "imgid": "17",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/500/015/939/0729/17.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/500/015/939/0729/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4640017350536",
+  "code": "4640017350536",
+  "category": "other",
+  "truth": {
+   "name": "Молоко питьевое ультрапастеризованное 3,2 %",
+   "composition": "молоко цельное, молоко обезжиренное",
+   "net_quantity": "950 ml",
+   "storage": null,
+   "energy_kcal": 60,
+   "proteins_g": 3,
+   "fats_g": 3.2,
+   "carbohydrates_g": 4.7
+  },
+  "photos": [
+   {
+    "imgid": "3",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/464/001/735/0536/3.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/464/001/735/0536/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4810168035785",
+  "code": "4810168035785",
+  "category": "other",
+  "truth": {
+   "name": "Антарктик-криль классический",
+   "composition": "масло растительное, мясо антарктического криля* вареное, вода питьевая, сахар, крахмал картофельный, соль, яичный желток, сухое обезжиренное молоко, ароматизаторы, регуляторы кислотности: уксусная кислота ледяная, молочная, яблочная, лимонная кислоты; загуститель ксантановая камедь, красители: кармины, экстракт паприки.",
+   "net_quantity": "150g",
+   "storage": null,
+   "energy_kcal": 407,
+   "proteins_g": 4.6,
+   "fats_g": 40.6,
+   "carbohydrates_g": 5.7
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/016/803/5785/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/016/803/5785/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600605033043",
+  "code": "4600605033043",
+  "category": "other",
+  "truth": {
+   "name": "АктиБио с пробиотиками и злаками",
+   "composition": "Нормализованное молоко, восстановленное молоко из сухого молока, наполнитель (вода, сахар, мюсли (пшеница, овес), ржаные отруби, концентрированный сок яблока, ароматизатор натуральный, сок лимона концентрированный, кукурузный крахмал), сахар, йогуртовая закваска, бифидобактерии Bioregularis.",
+   "net_quantity": "260 г",
+   "storage": null,
+   "energy_kcal": 70,
+   "proteins_g": 3,
+   "fats_g": 1.6,
+   "carbohydrates_g": 11
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/3043/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/3043/3.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/3043/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4620017453147",
+  "code": "4620017453147",
+  "category": "other",
+  "truth": {
+   "name": "Тараллини с томатом и ароматными травами",
+   "composition": "Cостав: мука пшеничная в/с, масло подсолнечное высокоолеиновое рафинированное дезодорированное, паста томатная, соль, спирт этиловый ректификованный из пищевого сырья, базилик сушеный, орегано сушеный, перец красный,",
+   "net_quantity": "180 г",
+   "storage": null,
+   "energy_kcal": 470,
+   "proteins_g": 9.5,
+   "fats_g": 20,
+   "carbohydrates_g": 63
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/462/001/745/3147/5.jpg"
+   },
+   {
+    "imgid": "1",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/462/001/745/3147/1.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/462/001/745/3147/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607084351323",
+  "code": "4607084351323",
+  "category": "sweets",
+  "truth": {
+   "name": "Biscuit Choco Boy Orion 45G Corée",
+   "composition": "ГЛАЗУРЬ КОНДИТЕРСКАЯ (САХАР, ЗАМЕНИТЕЛИ МАСЛА КАКАО НЕТЕМПЕРИРУЕМЫЕ ЛАУРИНОВОГО ТИПА (РАФИНИРОВАННОЕ ДЕЗОДОРИРОВАННОЕ ПАЛЬМОЯДРОВОЕ МАСЛО, ЭМУЛЬГАТОРЫ (ЛЕЦИТИН СОЕВЫЙ, СОРБИТАН ТРИСТЕАРАТ)), МОЛОКО СУХОЕ ЦЕЛЬНОЕ, МОЛОКО СУХОЕ ОБЕЗЖИРЕННОЕ, КАКАО - ПОРОШОК, КАКАО ТЕРТОЕ, ЛАКТОЗА, ЭМУЛЬГАТОРЫ (СОРБИТАН ТРИСТЕАРАТ, ЛЕЦИТИН СОЕВЫЙ, ЭФИРЫ ПОЛИГЛИЦЕРИНА И ВЗАИМОЭТЕРИФИЦИРОВАННЫХ РИЦИНОЛОВЫХ КИСЛОТ), АРОМАТИЗАТОР (ВАНИЛИН)), МУКА ПШЕНИЧНАЯ ОБЩЕГО НАЗНАЧЕНИЯ ТИП М55-23, ЗАМЕНИТЕЛЬ МАСЛА КАКАО НЕТЕМПЕРИРУЕМЫЙ ЛАУРИНОВОГО ТИПА (РАФИНИРОВАННОЕ ДЕЗОДОРИРОВАННОЕ ПАЛЬМОЯДРОВОЕ МАСЛО, ЭМУЛЬГАТОРЫ (СОРБИТАН ТРИСТЕАРАТ, ЛЕЦИТИН СОЕВЫЙ)), ВОДА ПИТЬЕВАЯ, САХАР, ЖИР КОНДИТЕРСКИЙ (РАФИНИРОВАННЫЕ ДЕЗОДОРИРОВАННЫЕ РАСТИТЕЛЬНЫЕ МАСЛА: ПАЛЬМОВОЕ, ПОДСОЛНЕЧНОЕ), ИНВЕРТНЫЙ СИРОП, РАЗРЫХЛИТЕЛИ (ГИДРОКАРБОНАТ АММОНИЯ, ГИДРОКАРБОНАТ НАТРИЯ), КРАХМАЛ КУКУРУЗНЫЙ, СОЛЬ, МОЛОКО СУХОЕ ЦЕЛЬНОЕ, АРОМАТИЗАТОР, КРАСИТЕЛЬ (КАРОТИНЫ). МОЖЕТ СОДЕРЖАТЬ ОШзни и СЛЕДЫ СЕМЯН КУНЖУТА МАССА НЕTTO: 45 Г. ГОДЕН ДО/ИЗГОТОВЛЕНО И УПАКОВАНО НЕТТО: (ДЕНЬ/МЕСЯЦ/ГОД): СМ. НА БОКОВОЙ СТОРОНЕ УПАКОВКИ. ИЗГОТОВИТЕЛЬ: ООО «ОРИОН ИНТЕРНЕЙШНЛ ЕВРО», 108811, РОССИЯ, Г. МОСКВА, П. МОСКОВСКИЙ, КИЕВСКОЕ ШОССЕ, 22-Й КМ, ДОМОВЛ. 6, СТР. 1, ЭТАЖ №3, ПОМЕЩЕНИЕ II, КОМНАТА №18, ТЕЛ.: +7-495-787-99-09. АДРЕСА ПРОИЗВОДСТВ (СМ. БУКВУ В МАРКИРОВКЕ): (T) ФИЛИАЛ №2 ООО «ОРИОН ИНТЕРНЕЙШНЛ ЕВРО» В ГОРОДЕ ТВЕРЬ, 170518, РОССИЯ, ТВЕРСКАЯ ОБЛАСТЬ, КАЛИНИНСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ, ТЕРРИТОРИЯ ОРИОН, ЗДАНИЕ №1, ТЕЛ.: +7-495-787-99-09. (N) ФИЛИАЛ ООО «ОРИОН ИНТЕРНЕЙШНЛ ЕВРО» В ГОРОДЕ НОВОСИБИРСК, 630088, РОССИЯ, Г. НОВОСИБИРСК, СЕВЕРНЫЙ ПРОЕЗД (КИРОВСКИЙ РАЙОН), Д. 35, ТЕЛ.: +7-383-344-70-55. ХРАНИТЬ В СУХОМ МЕСТЕ ПРИ ТЕМПЕРАТУРЕ НЕ ВЫШЕ 25°С И ОТНОСИТЕЛЬНОЙ ВЛАЖНОСТИ ВОЗДУХА НЕ БОЛЕЕ 75%. СТО 98948104-002-2015 CS ԱՅԴ ԹՎՈՒՄ ՀԱԳԵՑ 34,1 9, un 0,7 9: ЗЦОЧИРЧИN 2210 4 и оно вичле чис ԱՐՏԱԴՐՈՂ` «ՕՐԻ SSbunaлн 495-787-99-09: ursu 170518, naruuusu Suruba Cola Nel WINNUNENU Ub ՊԱՀՊԱՆՄԱՆ ՊԱՅՄ ՀԱՐԱԲԵՐԱԿԱՆ ԽՐ",
+   "net_quantity": "45 g",
+   "storage": null,
+   "energy_kcal": 529,
+   "proteins_g": 8,
+   "fats_g": 29,
+   "carbohydrates_g": 59
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/708/435/1323/1.jpg"
+   },
+   {
+    "imgid": "9",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/708/435/1323/9.jpg"
+   },
+   {
+    "imgid": "7",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/708/435/1323/7.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4602112100393",
+  "code": "4602112100393",
+  "category": "other",
+  "truth": {
+   "name": "Геркулес традиционный",
+   "composition": "овсяные хлопья",
+   "net_quantity": "500 g",
+   "storage": null,
+   "energy_kcal": 360,
+   "proteins_g": 12,
+   "fats_g": 6,
+   "carbohydrates_g": 62
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/211/210/0393/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/211/210/0393/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607117892113",
+  "code": "4607117892113",
+  "category": "sweets",
+  "truth": {
+   "name": "Алёнка",
+   "composition": "Сахар, масло какао, сухое цельное молоко, ядро ореха фундука дробленое, какао тёртое, эмульгаторы: лецитин соевый, Е476; ароматизаторы. Противопоказано незначительного количества ореха миндаля, изюма, фруктовых кусочков «Апельсин», продукта экструдированных круп (крупа рисовая, гречневая, кукурузная, пшеничная мука, какао-порошок, соль). Массовые доли: общего сухого остатка какао-не менее 33, 1%;B сухого обезжиренного остатка какао-не менее 5,9%;B сухого обезжиренного остатка молока и /или молочных продуктов при индивидуальной непереносимости белка молока. Возможно наличие - не менее 17,6%;",
+   "net_quantity": "100 g",
+   "storage": null,
+   "energy_kcal": 571,
+   "proteins_g": 8,
+   "fats_g": 38,
+   "carbohydrates_g": 46
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/711/789/2113/4.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/711/789/2113/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600699502197",
+  "code": "4600699502197",
+  "category": "other",
+  "truth": {
+   "name": "майонез оливковый слобода зелёный маленький",
+   "composition": "Подсолнечное и оливковое масла, вода, сахар, яичный желток, соль поваренная, лимонный сок, уксус, горчичное масло.",
+   "net_quantity": "375 г",
+   "storage": null,
+   "energy_kcal": 620,
+   "proteins_g": 0.3,
+   "fats_g": 67,
+   "carbohydrates_g": 3
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/2197/5.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/2197/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/2197/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607015234497",
+  "code": "4607015234497",
+  "category": "sweets",
+  "truth": {
+   "name": "ЯШКИНО ВАФЛИ ГЛАЗИРОВАННЫЕ С ОРЕШКАММ",
+   "composition": "Сахар, масла растительные, мука пшеничная в/с, какао-порошок, арахис обжареный, сыворотка молочная сухая, вода питьевая, крахмал кукурузный, лецитин соевый, сорбитан тристеарат, Е476, соль, ядро ореха фундука дробленое, продукты яичные, гидрокарбонат натрия, ароматизаторы, EЗ06",
+   "net_quantity": "200 г",
+   "storage": null,
+   "energy_kcal": 530,
+   "proteins_g": 6,
+   "fats_g": 32,
+   "carbohydrates_g": 55
+  },
+  "photos": [
+   {
+    "imgid": "6",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/4497/6.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/4497/4.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/4497/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622201695989",
+  "code": "7622201695989",
+  "category": "sweets",
+  "truth": {
+   "name": "альпен голд фундук и изюм",
+   "composition": "Сахар, изюм, какао тёртое, масло какао, _сыворотка сухая молочная_, _молоко сухое цельное_, _фундук обжаренный дроблённый_, _жир молочный_, _молоко сухое обезжиренное_, эмульгаторы (_лецитин соевый_, E476), ароматизатор.",
+   "net_quantity": "80г",
+   "storage": null,
+   "energy_kcal": 503,
+   "proteins_g": 5.4,
+   "fats_g": 26,
+   "carbohydrates_g": 60
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/220/169/5989/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/220/169/5989/2.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/220/169/5989/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4601674086268",
+  "code": "4601674086268",
+  "category": "other",
+  "truth": {
+   "name": "Сырный Соус",
+   "composition": "Масло подсолнечное рафинированное дезодорированное, вода, сахар, сыворотка молочная сухая (содержит лактозу). уксус натуральный, сливки сухие, соль, сыр (содержит уплотнитель хлорид кальция), крахмал кукурузный (5) или загуститель Дикрахмаладипат ацетилированный (Г) - буква-код указана в строке с датой изготовления, ароматизатор натуральный, загуститель ксантановая, регулятор кислотности кислота молочная, красители (каротины, экстракт паприки), экстракт зеленого Продукт может содержать следы глютена, горчицы, сельдерея, сои. Без использования ГМО. Пищевая ценность на 100 г продукта (средние значения): белки - 1,5 г, жиры - 43 г, углеводы - 12г, энергетическая ценность (калорийность) — 1870 «Дж15 кат Условия хранения: хранить при температуре от 0°С до +25°С. После вскрытия упаковки продукт хранить в холодильнике при температуре 4±2)°С. Даты изготовления и окончания срока годности указаны на боковых швах упаковки. Дата изготовления - более ранняя из двух дат Изготовитель: ООО «Петропродукт-Отрадное», 187330, Россия, Ленинградская обл., Кировский р-н, г. Отрадное, ул. Железнодорожная, д.1 ел.: +7(812) 960-14-14. По всем вопросам о продукции нашей компании обращайтесь по телефону 8-800-333-00-57. Звонок по России Бесплатный, www.heinz.ru. На упаковке изображен вариант приготовленного блюда и его сервировки с использованием соуса, ӨСІМДІК МАЙЫ НЕГІЗІНДЕГІ ТҰЗДЫҚ ІРІМШІКТІ ХАЙНЦ, мы: тазартылған иіссіздендірілген күнбағыс майы, су, қант, құрғақ сүт сарысуы (құрамында лактоза бар), табиғи сірке суы й, тұз, ірімшік (құрамында кальций хлориді тығыздағышы бар), жүгері крахмалы (ы) немесе ацетилденген дикрашат дырғышы (Г) - арт-код дайындалған күні бар жолақта көрсетілген, табии хош иістендіргіш, қоюландырғыш ксантан зықты реттегіш сүт қышқылы, бояғыштар (каротиндер, паприка сығындысы), көк шай сығындысы. Өнімде глютен, кыша, балдырк - 12 г. энергетикалық құндылығы (калориялығы) — 1870 кДж/450 ккал. Сақтау шарттары: 0°С бастап - 25°С дейін темпера Mai аманы ашқаннан кейін өнімді тоңазытқышта (4 ±2)°С температурасында сақтау керек. Дайындалған күні және жарамдылық ме таның бүйірлік ми стерінде көрсеткен дайындалғмпературасында сакта с 120 12 дайындаушы: Па ЖШҚ 187330, Ресей, Ленинград обл., Киров аудано традное к железнодорожная көш., 1-й Тел. +7 (812) 960-14-1 стрибьютор/Служба потребителей: ТОО «Прима Дистрибьюшн» Республика Казахстан, 050008 г. Алматы, ул. Жарокова, дом, 1-29/Факс: 8 (727) 250-19-20. Импорттаушы таратушы - бликасы, 050008, Алматы қ., Жароков к-сі, 20 ѵй - 30 мен ұсыныстарды қабылдаушы: «Прима Дистрибью 20 факс: +7 (727) 250 1920. Каптамада тұздықты колда даль Дайындалған тағамның және даста ЧЕТТО МАССАСЫ: 200 Г. CAM NULC ռաֆինացված հոտա մ է կալցիումի 2 - աթվի տոր 3. Чил ՄՔՈՎ ՍՈՈՒՍ: ունակում է կաթնաշաքար), բնական ջացած ացված օսլայի ադիպատի խտացուցիչ (1) կորաըման Վայնության կարգավորիչ կաթնաթթու ներկանյութ: 7) «անեխ, նեխուր և սոյայի հետքեր: Առանց ԳՄՕ-ի: Սննդային ա - աներում: Փաթեթը բացելուց հետո ապրանքը պահեք սառնարանում аршар - 43 9. Eubpaвитри шофер (ишприцшитаты) - 1870-1846",
+   "net_quantity": "200 g",
+   "storage": null,
+   "energy_kcal": 450,
+   "proteins_g": 1.5,
+   "fats_g": 43,
+   "carbohydrates_g": 12
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/167/408/6268/4.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/167/408/6268/2.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/167/408/6268/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607053473537",
+  "code": "4607053473537",
+  "category": "other",
+  "truth": {
+   "name": "Молоко Простоквашино отборное пастеризованное бут",
+   "composition": "цельное молоко",
+   "net_quantity": "930 мл",
+   "storage": null,
+   "energy_kcal": 63,
+   "proteins_g": 3.2,
+   "fats_g": 3.5,
+   "carbohydrates_g": 4.7
+  },
+  "photos": [
+   {
+    "imgid": "11",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/705/347/3537/11.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/705/347/3537/4.jpg"
+   },
+   {
+    "imgid": "6",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/705/347/3537/6.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600605029268",
+  "code": "4600605029268",
+  "category": "other",
+  "truth": {
+   "name": "сметана простоква",
+   "composition": "Сливки, закваска.",
+   "net_quantity": "300г",
+   "storage": null,
+   "energy_kcal": 204,
+   "proteins_g": 2.5,
+   "fats_g": 20,
+   "carbohydrates_g": 3.4
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/502/9268/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/502/9268/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607041131753",
+  "code": "4607041131753",
+  "category": "other",
+  "truth": {
+   "name": "Соус соевый классический",
+   "composition": "вода, соевые бобы, пшеница, соль, сахар, бензоат натрия E211",
+   "net_quantity": "1 l",
+   "storage": null,
+   "energy_kcal": 58,
+   "proteins_g": 3.5,
+   "fats_g": 0,
+   "carbohydrates_g": 11
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/704/113/1753/4.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/704/113/1753/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622210504227",
+  "code": "7622210504227",
+  "category": "grocery",
+  "truth": {
+   "name": "TUC pizza",
+   "composition": "Cостав: мука пшеничная, масла растительные, Бода, сироп глюкозно-фруктозный, ароматизатор «Пицца» (ароматизаторы, соль, сыворотка сухая молочная, усилители вкуса и аромата (E 621, E 631, Е 627), веществ0 для обработки муки (хлорид аммония), регулятор кислотности (кислота лимонная)), разрыхлители (карбонат аммония, гидрокарбонат натрия), яйца, соль, консервант (пиросульфит натрия).",
+   "net_quantity": "100 г",
+   "storage": null,
+   "energy_kcal": 482,
+   "proteins_g": 8.4,
+   "fats_g": 22,
+   "carbohydrates_g": 69
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/050/4227/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/050/4227/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/050/4227/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607015232677",
+  "code": "4607015232677",
+  "category": "sweets",
+  "truth": {
+   "name": "Яшкино вафли с варёной сгущёнкой",
+   "composition": "Мука пшеничная хлебопекарная, сахар, масла растительные, сыворотка молочная сухая, какао-порошок, начинка «Сгущенка вареная» (сахар, вода, заменитель молочного жира (масла растительные, антиокислители: Е304, альфа-Токоферол), сыворотка молочная сухая, молоко сухое обезжиренное, стабилизаторы: Е1442, Е440, Е452; ароматизатор, консервант сорбат калия; краситель: сахарный колер I); крахмал кукурузный, соль, эмульгатор: лецитины соевые; разрыхлители: гидрокарбонат аммония, гидрокарбонат натрия; антиокислитель: Токоферолы, концетрат смеси; регулятор кислотности: лимонная кислота; ароматизаторы",
+   "net_quantity": "300g",
+   "storage": null,
+   "energy_kcal": 520,
+   "proteins_g": 5,
+   "fats_g": 28,
+   "carbohydrates_g": 62
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/2677/4.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/2677/5.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/2677/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4620017453130",
+  "code": "4620017453130",
+  "category": "other",
+  "truth": {
+   "name": "Тараллини классические",
+   "composition": "мука пшеничная в/с (содержит глютен), масло подсолнечное высокоолеиновое рафинированное дезодорированное, соль, спирт этиловый ректификованный из пищевого сырья.",
+   "net_quantity": "180 г",
+   "storage": null,
+   "energy_kcal": 460,
+   "proteins_g": 9,
+   "fats_g": 20,
+   "carbohydrates_g": 61
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/462/001/745/3130/1.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/462/001/745/3130/4.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/462/001/745/3130/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622210343161",
+  "code": "7622210343161",
+  "category": "sweets",
+  "truth": {
+   "name": "Шоколад белый пористый \"Воздушный\"",
+   "composition": "сахар, какао, сыворотка сухая молочная, молоко сухое цельное, жир молочный, эмульгаторы (лецитин соевый E476), ароматизатор.",
+   "net_quantity": "85 г",
+   "storage": null,
+   "energy_kcal": 530,
+   "proteins_g": 4.4,
+   "fats_g": 27,
+   "carbohydrates_g": 65
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/034/3161/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/034/3161/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/034/3161/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622210357915",
+  "code": "7622210357915",
+  "category": "sweets",
+  "truth": {
+   "name": "Батончик «Big Picnic»",
+   "composition": "Сахар, арахис обжаренный дроблёный, изюм, масла растительные (пальмовое, рапсовое), мука пшеничная, масло какао, воздушный рис (мука рисовая, сахар, ячменно-солодовый экстракт, масло пальмовое, соль) сыворотка сухая молочная, какао тёртое, молоко сухое цельное, сироп глюкозный, какао-порошок, эмульгаторы (лецитин соевый, E476, E471), загуститель (E422), соль, регуляторы кислотности (гидрокарбонат натрия, кислота лимонная), ароматизаторы, грецкий орех обжаренный дроблёный.",
+   "net_quantity": "76 г",
+   "storage": null,
+   "energy_kcal": 481,
+   "proteins_g": 7.2,
+   "fats_g": 24,
+   "carbohydrates_g": 57
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/035/7915/7.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/035/7915/2.jpg"
+   },
+   {
+    "imgid": "8",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/035/7915/8.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607065730109",
+  "code": "4607065730109",
+  "category": "other",
+  "truth": {
+   "name": "Snickers «Белый»",
+   "composition": "Белый шоколад (сахар, какао масло, сухое цельное молоко, лактоза, эмульгатор (соевый лецитин), ароматизатор (ванилин)); глюкозный сироп (кукурузный, пшеничный), арахис, сахар, масло пальмовое рафинированное дезодорированное, сухое обезжиренное молоко, соль, сухой яичный белок, ароматизатор (ванилин).",
+   "net_quantity": "81g",
+   "storage": null,
+   "energy_kcal": 504,
+   "proteins_g": 8.3,
+   "fats_g": 26.5,
+   "carbohydrates_g": 57.7
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/573/0109/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/573/0109/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4601780002565",
+  "code": "4601780002565",
+  "category": "grocery",
+  "truth": {
+   "name": "Мука пшеничная хлебопекарная высший сорт",
+   "composition": "Мука пшеничная хлебопекарная высший сорт",
+   "net_quantity": "2kg",
+   "storage": null,
+   "energy_kcal": 340,
+   "proteins_g": 12,
+   "fats_g": 1.1,
+   "carbohydrates_g": 70.6
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/178/000/2565/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/178/000/2565/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4602112502333",
+  "code": "4602112502333",
+  "category": "other",
+  "truth": {
+   "name": "Геркулес Монастырский",
+   "composition": "Овсяные хлопья",
+   "net_quantity": "500 г",
+   "storage": null,
+   "energy_kcal": 360,
+   "proteins_g": 12,
+   "fats_g": 6,
+   "carbohydrates_g": 62
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/211/250/2333/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/211/250/2333/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607096572396",
+  "code": "4607096572396",
+  "category": "other",
+  "truth": {
+   "name": "Хлебцы тонкие ржаные",
+   "composition": "Мука ржаная хлебопекарная обдирная, вода питьевая, отруби пшеничные, соль, дрожжи хлебопекарные, солод ржаной, эмульгатор соевый лецитин. Может содержать следы кунжута.",
+   "net_quantity": "170 г",
+   "storage": null,
+   "energy_kcal": 323,
+   "proteins_g": 12,
+   "fats_g": 3,
+   "carbohydrates_g": 62
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/709/657/2396/4.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/709/657/2396/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/709/657/2396/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600605029275",
+  "code": "4600605029275",
+  "category": "other",
+  "truth": {
+   "name": "Сметана 15%",
+   "composition": "Сливки нормализованные, заквасочные микроорганизмы.",
+   "net_quantity": "300",
+   "storage": null,
+   "energy_kcal": 160,
+   "proteins_g": 2.7,
+   "fats_g": 15,
+   "carbohydrates_g": 3.6
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/502/9275/2.jpg"
+   },
+   {
+    "imgid": "1",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/502/9275/1.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_8076809575959",
+  "code": "8076809575959",
+  "category": "grocery",
+  "truth": {
+   "name": "Capellini n.1",
+   "composition": "мука из твердой пшеницы высшего сорта, вода",
+   "net_quantity": "450г",
+   "storage": null,
+   "energy_kcal": 359,
+   "proteins_g": 14,
+   "fats_g": 2,
+   "carbohydrates_g": 69.7
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/807/680/957/5959/7.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/807/680/957/5959/5.jpg"
+   },
+   {
+    "imgid": "8",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/807/680/957/5959/8.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4605829006064",
+  "code": "4605829006064",
+  "category": "other",
+  "truth": {
+   "name": "Хлеб сандвичный пшеничный с отрубями",
+   "composition": "Мука пшеничная хлебопекарная в/с, вода, отруби пшеничные, масло рапсовое рафинированное дезодорированное, сахар, улучшитель хлебопекарный (эмульгатор (моно - и диглицериды жирных кислот), мука пшеничная хлебопекарная, консервант (пропионат кальция), мука соевая полножирная, антиокислитель (кислота аскорбиновая), ферменты), клейковина пшенная сухая, соль, спирт пищевой, дрожжи хлебопекарные.",
+   "net_quantity": "515 г",
+   "storage": null,
+   "energy_kcal": 270,
+   "proteins_g": 9.5,
+   "fats_g": 6.5,
+   "carbohydrates_g": 42
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/582/900/6064/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/582/900/6064/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/582/900/6064/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622210742025",
+  "code": "7622210742025",
+  "category": "sweets",
+  "truth": {
+   "name": "Печенье Утреннее С Йогуртовой Начинкой",
+   "composition": "Злаковые (мука ПШЕНИЧНАЯ, цельные злаки (хлопья ОВСЯНЫЕ, мука цельнозерновая РЖАНАЯ, отруби ПШЕНИЧНЫЕ)), сахар, масла растительные (рапсовое, пальмовое), крахмал кукурузный, вода, сыворотка сухая МОЛОЧНАЯ, разрыхлители (гидрокарбонат аммония,  гидрокарбонат натрия, дигидропирофосфат натрия), ЙОГУРТОВЫЙ порошок, карбонат кальция, эмульгаторы (эфиры глицерина и диацетилвинной и жирных кислот, лецитин СОЕВЫЙ), ароматизатор, соль, глюкозно-фруктозный сироп, регулятор кислотности (кислота лимонная), витаминно-минеральный комплекс (витамин В1, витамин В2, витамин В6, витамин РР, витамин Вс, железо). МОЖЕТ СОДЕРЖАТЬ СЛЕДЫ ЯИЦ, ОРЕХОВ. Хранить при температуре (10-20)°С и относительной влажности воздуха не более 65%. Витамины и минеральные вещества в 100 г (средние значения) / % от РУСП*: витамин В1 - 0,27 мг / 19,3%; витамин В2 - 0,22 мг / 13,8%; витамин РР - 4,48 мг / 24,9%; витамин В6-0,43 мг/21,5%; витамин Вс - 0,04 мг/20%; кальций - 190 мг/ 19%; железо - 2,93 мг/20,9%. Витамины и минеральные вещества в 1 порции (средние значения) / % от РУСП*: Чаш Витамин В1 - 0,13 мг / 9,3%; витамин В2 - 0,11 мг / 7%; витамин РР - 2,27 мг / 12,6%; витамин В6 - 0,22 мг / 11%; витамин Вс 0,02 мг / 10%; кальций - 96 мг /9,6%; железо - 21,5 1,48 мг / 10,6%.",
+   "net_quantity": "1 порция - 2 печенья 50,6 гр. Пачка 253 гр., 5 упаковок по 2 шт.",
+   "storage": null,
+   "energy_kcal": 467,
+   "proteins_g": 7,
+   "fats_g": 18,
+   "carbohydrates_g": 67
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/074/2025/4.jpg"
+   },
+   {
+    "imgid": "7",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/074/2025/7.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/074/2025/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4610005640505",
+  "code": "4610005640505",
+  "category": "other",
+  "truth": {
+   "name": "хлебцы овсяные со льном и кунжутом",
+   "composition": "Мука пшеничная цельнозерновая, крупа овсяная, семена льна, семена кунжута, крупа кукурузная, соль поваренная пищевая, соль морская, вода питьевая.",
+   "net_quantity": "100 г",
+   "storage": null,
+   "energy_kcal": 253.1,
+   "proteins_g": 7.9,
+   "fats_g": 1.9,
+   "carbohydrates_g": 51.1
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/461/000/564/0505/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/461/000/564/0505/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/461/000/564/0505/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4604248006204",
+  "code": "4604248006204",
+  "category": "sweets",
+  "truth": {
+   "name": "Джем \"Клубничный\" нестерилизованный",
+   "composition": "клубника, сахар, глюкозно-фруктозный сироп, загуститель (пектины), регулятор кислотности (лимонная кислота)",
+   "net_quantity": "300 г",
+   "storage": null,
+   "energy_kcal": 272,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 68
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/424/800/6204/5.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/424/800/6204/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/424/800/6204/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607005408112",
+  "code": "4607005408112",
+  "category": "sweets",
+  "truth": {
+   "name": "Chocolat noir extra fin",
+   "composition": "какао тертое, мальтитол (подсластитель), какао-порошок, пребиотик (инулин*), какао - масло, ароматизатор (ванилин), эмульгатор (лецитин), натуральный подсластитель (стевия). \r\nНе содержит ГМО. Содержит подсластитель.",
+   "net_quantity": "100 g",
+   "storage": null,
+   "energy_kcal": 450,
+   "proteins_g": 10,
+   "fats_g": 35,
+   "carbohydrates_g": 24
+  },
+  "photos": [
+   {
+    "imgid": "8",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/540/8112/8.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/540/8112/4.jpg"
+   },
+   {
+    "imgid": "9",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/540/8112/9.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607025399810",
+  "code": "4607025399810",
+  "category": "other",
+  "truth": {
+   "name": "Напиток сывороточно-молочный \"персик-маракуйя\"",
+   "composition": "Сыворотка молочная восстановленная, вода, сахарный сироп, глюкозно-фруктозный сироп, концентрированный яблочный сок, молоко обезжиренное восстановленное, концентрированное персиковое пюре, концентрированный сок из маракуйи, стабилизатор - пектины, стабилизатор: камедь целлюлозы, ароматизаторы, премикс витаминный (A, D3, Е, В1, В2, В6, В12, РР, биотин, фолиевая кислота), красители (аннато, куркумин), регуляторы кислотности (цитрат натрия 3-замещенный, лимонная кислота).",
+   "net_quantity": "950g",
+   "storage": null,
+   "energy_kcal": 50,
+   "proteins_g": 0.5,
+   "fats_g": 0.04,
+   "carbohydrates_g": 12.9
+  },
+  "photos": [
+   {
+    "imgid": "3",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/702/539/9810/3.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/702/539/9810/4.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/702/539/9810/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4810268033261",
+  "code": "4810268033261",
+  "category": "cheese",
+  "truth": {
+   "name": "Сыр полутвердый «Брест-Литовск классический» массовой долей жира в сухом веществе 45%",
+   "composition": "молоко коровье нормализованное пастеризованное, закваска на основе молочнокислых мезофильных и термофильных бактерий, соль, консервант нитрат натрия, краситель аннато, уплотнитель хлорид кальция, ферментный препарат животного происхождения: пепсин, химозин.",
+   "net_quantity": "200 г",
+   "storage": null,
+   "energy_kcal": 340.1,
+   "proteins_g": 26.3,
+   "fats_g": 26.1,
+   "carbohydrates_g": 0
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/3261/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/3261/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/3261/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607015232868",
+  "code": "4607015232868",
+  "category": "sweets",
+  "truth": {
+   "name": "глазированные вафли",
+   "composition": "Сахар, масла растительные, мука пшеничная хлебопекарная, какао-порошок, крахмал кукурузный, эмульгаторы: соевый лицетин, Е492; соль, разрыхлители: гидрокарбонат натрия, гидрокарбонат аммония; ароматизатор, антиокислители: токоферолы, концентрат смеси, лимонная кислота.",
+   "net_quantity": "200g",
+   "storage": null,
+   "energy_kcal": 530,
+   "proteins_g": 5,
+   "fats_g": 31,
+   "carbohydrates_g": 57
+  },
+  "photos": [
+   {
+    "imgid": "3",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/2868/3.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/2868/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4690388119157",
+  "code": "4690388119157",
+  "category": "grocery",
+  "truth": {
+   "name": "Lays чипсы сметана и зелень 70",
+   "composition": "Картофель, растительные масла*, ароматизатор (соль, вкусоароматические вещества (содержат луковый порошок, порошок молочной сыворотки), сахар), усилители вкуса и аромата (глутамат натрия (E621), 5′-инозинат натрия (E631), 5′-гуанилат натрия (E627)), зелень (петрушка сушёная), регуляторы кислотности (лимонная кислота (E330), диацетат натрия (E262)).",
+   "net_quantity": "70г",
+   "storage": null,
+   "energy_kcal": 520,
+   "proteins_g": 6,
+   "fats_g": 32,
+   "carbohydrates_g": 53
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/038/811/9157/1.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/038/811/9157/3.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/038/811/9157/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607013790216",
+  "code": "4607013790216",
+  "category": "other",
+  "truth": {
+   "name": "Заменитель сахара (Подсластители Новасвит)",
+   "composition": "MACCA HETTO 72r (1200 таблеток с подсластитель - цикламовой KONCTOTH гидрокарбонат дарыхлитель катрия, подсластитель - сахарин (катриевая соль), лактоза, регулятор ОСЛОТНОСТИ - винная ста БЕЗ КАЛОРИЙ. Хранить при температуре не выше 25 °С и относительно воздуха не более 75 %. ГОДЕН 2 ГОДА.",
+   "net_quantity": "72 г (1200 таблеток)",
+   "storage": null,
+   "energy_kcal": 0,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 0
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/379/0216/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/379/0216/2.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/379/0216/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4660043858790",
+  "code": "4660043858790",
+  "category": "other",
+  "truth": {
+   "name": "Сырок творожный глазированный в бельгийском молочном шоколаде с молоком сгущёным варёным",
+   "composition": "Творог, шоколад молочный (сахар, масло какао, сухое цельное молоко, какао тертое, эмульгатор: лецитины (соевый лецитин), ароматизатор натуральный: ваниль), сахар, сливочное масло, молоко сгущенное с сахаром вареное (молоко нормализованное, сахар (сахароза)).",
+   "net_quantity": "50 г",
+   "storage": null,
+   "energy_kcal": 409.5,
+   "proteins_g": 7.9,
+   "fats_g": 26.3,
+   "carbohydrates_g": 35.3
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/466/004/385/8790/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/466/004/385/8790/3.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/466/004/385/8790/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4601347004179",
+  "code": "4601347004179",
+  "category": "other",
+  "truth": {
+   "name": "Хлеб бородинский заварной с кориандром",
+   "composition": "мука ржаная хлебопекарная обойная, вода, мука пшеничная хлебопекарная второго сорта,\r\nсахар-песок, солод ржаной ферментированный,\r\nпатока крахмальная,\r\nсоль, дрожжи хлебопекарные,\r\nкориандр, тмин.",
+   "net_quantity": "400 г",
+   "storage": null,
+   "energy_kcal": 200,
+   "proteins_g": 7,
+   "fats_g": 1.5,
+   "carbohydrates_g": 40
+  },
+  "photos": [
+   {
+    "imgid": "9",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/134/700/4179/9.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/134/700/4179/2.jpg"
+   },
+   {
+    "imgid": "10",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/134/700/4179/10.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4690228107290",
+  "code": "4690228107290",
+  "category": "other",
+  "truth": {
+   "name": "Йогурт со вкусом клубника-земляника",
+   "composition": "Молоко нормализованное, молоко восстановленное (В), сахар, клубника, вода, стабилизаторы (Е1422, гуаровая камедь), желатин, глюкозно-фруктозный сироп (G)*, стабилизатор - модифицированный крахмал, ароматизаторы, краситель кармины, регуляторы кислотности (лимонная кислота, цитрат натрия 3-замещенный), закваска. Содержание молочнокислых микроорганизмов в продукте не менее 1x10% КОЕ/г.",
+   "net_quantity": "290 g",
+   "storage": null,
+   "energy_kcal": 94.4,
+   "proteins_g": 3.3,
+   "fats_g": 2,
+   "carbohydrates_g": 15.8
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/022/810/7290/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/022/810/7290/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600823651050",
+  "code": "4600823651050",
+  "category": "sweets",
+  "truth": {
+   "name": "Шоколад 75%",
+   "composition": "какао  пЁртое, сахар, какао-порошок, масло какао, эмульгаторы: лецитин соевый, Е476, ароматизатор «Ваниль».",
+   "net_quantity": "75 г",
+   "storage": null,
+   "energy_kcal": 520,
+   "proteins_g": 11,
+   "fats_g": 36,
+   "carbohydrates_g": 32
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/082/365/1050/1.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/082/365/1050/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4810268030383",
+  "code": "4810268030383",
+  "category": "other",
+  "truth": {
+   "name": "Греческий йогурт, черника",
+   "composition": "COСТАВ: изготовлен из молока нормализованного пастеризованного, фруктового наполнителя «Черника» (сахар; черника; крахмал кукурузный; натуральные ароматизаторы «Черника», «Ваниль»; загуститель - пектины; фруктовые и растительные экстракты (сок черной моркови и гибискуса)), с использованием закваски, состоящей из термофильных молочнокислых стрептококков и болгарской молочно-кислой палочки",
+   "net_quantity": "140 г",
+   "storage": null,
+   "energy_kcal": 91.2,
+   "proteins_g": 7,
+   "fats_g": 2,
+   "carbohydrates_g": 11.3
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/0383/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/0383/2.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/803/0383/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4810285004008",
+  "code": "4810285004008",
+  "category": "other",
+  "truth": {
+   "name": "Kvas Lidskyi Khlebniy",
+   "composition": "Вода, сахар, концентрат квасного сусла (мука ржаная, солод ржаной ферментированный, солод пивоваренный ячменный), регулятор кислотности лимонная кислота",
+   "net_quantity": "1,5 л",
+   "storage": null,
+   "energy_kcal": 26,
+   "proteins_g": 0.4,
+   "fats_g": 0,
+   "carbohydrates_g": 6.4
+  },
+  "photos": [
+   {
+    "imgid": "8",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/028/500/4008/8.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/028/500/4008/4.jpg"
+   },
+   {
+    "imgid": "9",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/028/500/4008/9.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607044554603",
+  "code": "4607044554603",
+  "category": "sweets",
+  "truth": {
+   "name": "Печенье затяжное Кременкульское «Сливочное»",
+   "composition": "мука пшеничная в/с, сахар, вода питьевая, жир кондитерский (рафинированные дезодорированные растительные масла в натуральном и модифицированном виде, в том числе соевое), крахмал кукурузный, разрыхлители (карбонаты аммония, гидрокарбонат натрия), соль поваренная пищевая, эмульгатор (соевый лецитин), молоко сухое цельное, регуляторы кислотности (пирофосфат натрия, лимонная кислота), сливки сухие, антиокислитель (пиросульфит натрия), ароматизатор «Ванилин».",
+   "net_quantity": "180 г",
+   "storage": null,
+   "energy_kcal": 422,
+   "proteins_g": 7.5,
+   "fats_g": 11,
+   "carbohydrates_g": 72
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/704/455/4603/5.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/704/455/4603/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/704/455/4603/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622202204074",
+  "code": "7622202204074",
+  "category": "other",
+  "truth": {
+   "name": "Мини-круассаны 7 Days  с кремом со вкусом ваниль",
+   "composition": "мука пшеничная хлебопекарная высшего сорта, вода, маргарин (масло растительное (пальмовое масло), вода, соль, эмульгатор (моно - и диглицериды жирных кислот), регулятор) кислотности (лимонная кислоте), консервант (сорбат калия) сахар, масло растительное (пальмовое масло), дрожжи хлебопекарные прессованные, соль, стабилизатор (моно - и диглицериды жирных кислот), ароматизатор, консервант (пропионат кальция); крем со вкусом «ваниль» 54%: сахар, масло растительное (пальмовое масло), вода, молоко сухое обезжиренное, декстроза, спирт этиловый ректификованный из пищевого сырья «Люкс» 96.5% об., желток яичный сухой, эмульгатор (эфиры полиглицерина и жирных кислот), стабилизатор (камедь целлюлозы), регуляторы кислотности (пигидропирофосфат натрия, орто-Фосфорная кислота), ароматизатор, консервант (сорбат калия), лактоза.",
+   "net_quantity": "265 г",
+   "storage": null,
+   "energy_kcal": 456,
+   "proteins_g": 6,
+   "fats_g": 27,
+   "carbohydrates_g": 45
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/220/220/4074/7.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/220/220/4074/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/220/220/4074/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_5000159381178",
+  "code": "5000159381178",
+  "category": "sweets",
+  "truth": {
+   "name": "Bounty Trio",
+   "composition": "молочный шоколад (сахар, масло какао, какао тертое, сухое цельное молоко,\r\nлактоза, сухая молочная сыворотка, молочный жир, эмульгатор (соевый лецитин), ароматизатор (ванилин)), сушеная мякоть кокоса, сахар, глюкозный сироп (кукурузный, пшеничный), эмульгатор (моно - и диглицериды жирных кислот), агент влагоудерживающий\r\n(глицерин), ароматизатор (ванилин), соль.",
+   "net_quantity": "82,5 g (3 x 27,5 g)",
+   "storage": null,
+   "energy_kcal": 484,
+   "proteins_g": 3.7,
+   "fats_g": 25.4,
+   "carbohydrates_g": 58.7
+  },
+  "photos": [
+   {
+    "imgid": "14",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/500/015/938/1178/14.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/500/015/938/1178/5.jpg"
+   },
+   {
+    "imgid": "13",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/500/015/938/1178/13.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607163091560",
+  "code": "4607163091560",
+  "category": "other",
+  "truth": {
+   "name": "Сок яблочный прямого отжима",
+   "composition": "Сок яблочный прямого отжима",
+   "net_quantity": "1 л",
+   "storage": null,
+   "energy_kcal": 44,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 11
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/716/309/1560/7.jpg"
+   },
+   {
+    "imgid": "8",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/716/309/1560/8.jpg"
+   },
+   {
+    "imgid": "13",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/716/309/1560/13.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607004631320",
+  "code": "4607004631320",
+  "category": "other",
+  "truth": {
+   "name": "Квас хлебный «Вятский» фильтрованный, пастеризованный",
+   "composition": "вода питьевая, сахар, ржаная мука, солод ферментированный ржаной, солод ячменный, дрожжи",
+   "net_quantity": "1.5 l",
+   "storage": null,
+   "energy_kcal": 40,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 7.5
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/463/1320/7.jpg"
+   },
+   {
+    "imgid": "8",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/463/1320/8.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4690228004018",
+  "code": "4690228004018",
+  "category": "other",
+  "truth": {
+   "name": "Молоко Домик в деревне ультрапастеризованное 3,2 %",
+   "composition": "молоко нормализованное, жиры 3.2g, белки 3g, углеводы 4.7g, 60ккал",
+   "net_quantity": "925 ml, 950 g",
+   "storage": null,
+   "energy_kcal": 60,
+   "proteins_g": 3,
+   "fats_g": 3.2,
+   "carbohydrates_g": 4.7
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/022/800/4018/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/022/800/4018/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4605496023357",
+  "code": "4605496023357",
+  "category": "grocery",
+  "truth": {
+   "name": "Биг Бон wok острая говядина в соусе по китайски",
+   "composition": "Лапша (мука пшеничная в/с, масло растительное, крахмал кукурузный (содержит сульфиты) и тапиоковый, вода питьевая, соль, загуститель гуаровая камедь, стабилизатор карбонат калия, разрыхлитель гидрокарбонат натрия, усилитель вкуса и аромата Е621, регулятор кислотности лимонная кислота); соус (вода питьевая, масло соевое, соус соевый (вода питьевая, соя, пшеница, соль, консервант бензоат натрия), яблочный сок, сахар, соль, усилитель вкуса и аромата Е621, ароматизаторы (содержат молоко), красители (сахарный колер IV, экстракт паприки, куркумин), загуститель Е1442, регуляторы кислотности (уксусная, молочная и лимонная кислоты), стабилизатор гуаровая камедь, мясо говядины варено-сушеное, консерванты (сорбат калия, бензоат натрия), антиокислитель Е385); смесь с овощами сушеными (капуста савойская, морковь, соевый текстурат); семена кунжута белого.",
+   "net_quantity": "85g",
+   "storage": null,
+   "energy_kcal": 370,
+   "proteins_g": 6,
+   "fats_g": 19,
+   "carbohydrates_g": 45
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/549/602/3357/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/549/602/3357/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607048836682",
+  "code": "4607048836682",
+  "category": "grocery",
+  "truth": {
+   "name": "Чипсы картофельные \"Naturals\" классические с солью",
+   "composition": "Картофель, масло подсолнечное, соль, соль морская.",
+   "net_quantity": "100 г",
+   "storage": null,
+   "energy_kcal": 527,
+   "proteins_g": 5.2,
+   "fats_g": 34,
+   "carbohydrates_g": 48
+  },
+  "photos": [
+   {
+    "imgid": "6",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/704/883/6682/6.jpg"
+   },
+   {
+    "imgid": "7",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/704/883/6682/7.jpg"
+   },
+   {
+    "imgid": "8",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/704/883/6682/8.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600823015333",
+  "code": "4600823015333",
+  "category": "sweets",
+  "truth": {
+   "name": "Шоколад \"Люкс\"",
+   "composition": "Сахар, какао тёртое, масло какао, эмульгаторы (_лецитин соевый_, Е476), ароматизатор «Ванильно-сливочный».",
+   "net_quantity": "90g",
+   "storage": null,
+   "energy_kcal": 540,
+   "proteins_g": 5.5,
+   "fats_g": 33,
+   "carbohydrates_g": 52
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/082/301/5333/4.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/082/301/5333/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600494694202",
+  "code": "4600494694202",
+  "category": "other",
+  "truth": {
+   "name": "Adrenaline Rush",
+   "composition": "Вода, сахар, регуляторы кислотности (лимонная кислота, цитрат натрия 3-замещённый, орто-фосфат калия 1-замещённый), таурин, L-карнитин, ароматизаторы, антиокислитель аскорбиновая кислота, стабилизаторы (гуммиарабик, эфиры глицерина и смоляных кислот), кофеин, инозит, экстракт семян гуараны, витамины (B6, B12), экстракт корня женьшеня, краситель бета-каротин.",
+   "net_quantity": "0.449 л",
+   "storage": null,
+   "energy_kcal": 54,
+   "proteins_g": 0.5,
+   "fats_g": 0,
+   "carbohydrates_g": 12.5
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/049/469/4202/5.jpg"
+   },
+   {
+    "imgid": "6",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/049/469/4202/6.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/049/469/4202/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4810268016806",
+  "code": "4810268016806",
+  "category": "cheese",
+  "truth": {
+   "name": "Творог «Мягкий Нежный» 0.1%",
+   "composition": "Молоко обезжиренное пастеризованное с использованием закваски. Технологическое средство: Ферментный препарат животного происхождения - пепсин, химозин.",
+   "net_quantity": "125 g",
+   "storage": null,
+   "energy_kcal": 44.9,
+   "proteins_g": 10,
+   "fats_g": 0.1,
+   "carbohydrates_g": 1
+  },
+  "photos": [
+   {
+    "imgid": "10",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/801/6806/10.jpg"
+   },
+   {
+    "imgid": "11",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/801/6806/11.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/481/026/801/6806/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4601674008864",
+  "code": "4601674008864",
+  "category": "other",
+  "truth": {
+   "name": "Томатный кетчуп",
+   "composition": "Вода, паста томатная, сахар, уксус натуральный, соль, специи (содержат сельдерей).",
+   "net_quantity": "1000 г",
+   "storage": null,
+   "energy_kcal": 110,
+   "proteins_g": 1,
+   "fats_g": 0.1,
+   "carbohydrates_g": 25
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/167/400/8864/4.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/167/400/8864/5.jpg"
+   },
+   {
+    "imgid": "6",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/167/400/8864/6.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4602248003711",
+  "code": "4602248003711",
+  "category": "other",
+  "truth": {
+   "name": "Хлопья 4-х зерновые",
+   "composition": "Овсяные хлопья, пшеничные хлопья, ржаные хлопья, ячменные хлопья.",
+   "net_quantity": "350 г",
+   "storage": null,
+   "energy_kcal": 305,
+   "proteins_g": 10.25,
+   "fats_g": 2.5,
+   "carbohydrates_g": 60
+  },
+  "photos": [
+   {
+    "imgid": "6",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/224/800/3711/6.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/224/800/3711/2.jpg"
+   },
+   {
+    "imgid": "7",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/224/800/3711/7.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4606779910609",
+  "code": "4606779910609",
+  "category": "other",
+  "truth": {
+   "name": "Пудинг молочный «High Protein» со вкусом шоколада",
+   "composition": "Cостав: молоко обезжиренное, белок МОЛОЧНЫЙ, СЛИВКИ, какао - порошок, загустители (Е1442, E1422, каррагинан, Е466), подсластители (ацесульфам калия, сукралоза), регуляторы кислотности (пирофосфаты, трифосфаты, карбонаты калия, гидроксид натрия, гидроксид калия), фермент - лактаза, ароматизатор натуральный.",
+   "net_quantity": "200 g",
+   "storage": null,
+   "energy_kcal": 80,
+   "proteins_g": 10,
+   "fats_g": 1.5,
+   "carbohydrates_g": 6
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/677/991/0609/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/677/991/0609/2.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/677/991/0609/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4610007398626",
+  "code": "4610007398626",
+  "category": "other",
+  "truth": {
+   "name": "Мюсли «Солёная карамель»",
+   "composition": "Хлопья овсяные, сахар, патока, мука пшеничная, масло растительное, пшеница воздушная (мука пшеничная, мука рисовая, сахар, соль), взорванные зерна пшеницы со вкусом карамели (взорванные зерна пшеницы, сахар, патока, жир растительный, декстроза (глюкоза), соль, ароматизатор пищевой «Карамель», регулятор кислотности (лимонная кислота), эмульгатор (лецитин соевый), драже в шоколаде (темный шоколад (сахар, какао тертое, какао-масло, эмульгатор (лецитин соевый), экстракт ванили), рисовые шарики (крупа рисовая, мука пшеничная, сахар, соль), агент глазирующий (сироп глюкозы, глазирователь (шеллак), регулятор кислотности (лимонная кислота), стабилизатор (гуммиарабик), масло растительное, жир пальмовый), молоко сухое обезжиренное «Карамелизованное», карамель леденцовая (сахар, вода питьевая, патока, масло рапсовое, сыворотка молочная сухая, молоко обезжиренное сухое, масло кокосовое, соль, загуститель (дикрахмалфосфат ацетилированный), агент антислеживающий (диоксид кремния аморфный), консерванты (сорбат калия, бензоат натрия), краситель (диоксид титана), регулятор кислотности (цитрат натрия 3-замещенный). ароматизаторы. Может содержать незначительное количество орехов, арахиса и следы яиц.",
+   "net_quantity": "250 г",
+   "storage": null,
+   "energy_kcal": 390,
+   "proteins_g": 8,
+   "fats_g": 13,
+   "carbohydrates_g": 60
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/461/000/739/8626/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/461/000/739/8626/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/461/000/739/8626/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600494685521",
+  "code": "4600494685521",
+  "category": "other",
+  "truth": {
+   "name": "Кола 0,5 Evervess смотка",
+   "composition": "вода, сахар, краситиль Е150d, регулятор кислотности E338, ароматизаторы, ароматизатор с кофеиом, стабилизатор E414",
+   "net_quantity": "0.5 л",
+   "storage": null,
+   "energy_kcal": 44,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 11.1
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/049/468/5521/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/049/468/5521/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/049/468/5521/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607035653292",
+  "code": "4607035653292",
+  "category": "other",
+  "truth": {
+   "name": "Вафельные трубочки ореховые",
+   "composition": "Сахар, мука пшеничная в/с, масла растительные, сыворотка молочная сухая, какао-порошок, вода питьевая, арахис жареный тертый, продукты яичные, эмульгатор: лецитин соевый; масло растительное (содержит антиокислитель Е319); крахмал кукурузный, мука соевая, соль, глюкозно-фруктозный сироп, паста ядер орехов фундука обжаренных, ароматизаторы, масло кокосовое, разрыхлители: гидрокарбонат натрия, гидрокарбонат аммония; красители: каротины, аннато; антиокислители: Токоферолы, концентрат смеси, аскорбиновая кислота, альфа-Токоферол.",
+   "net_quantity": "190 g",
+   "storage": null,
+   "energy_kcal": 480,
+   "proteins_g": 5.5,
+   "fats_g": 22,
+   "carbohydrates_g": 64
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/703/565/3292/1.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/703/565/3292/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_0016229919306",
+  "code": "0016229919306",
+  "category": "other",
+  "truth": {
+   "name": "Органическая кокосовая вода",
+   "composition": "Натуральная кокосовая вода ORGANIC 100%.",
+   "net_quantity": "1000 ml",
+   "storage": null,
+   "energy_kcal": 21,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 5.2
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/001/622/991/9306/7.jpg"
+   },
+   {
+    "imgid": "13",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/001/622/991/9306/13.jpg"
+   },
+   {
+    "imgid": "12",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/001/622/991/9306/12.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4603334003639",
+  "code": "4603334003639",
+  "category": "other",
+  "truth": {
+   "name": "Напиток безалкогольный \"святой источник\" с ароматом лимона и лайма, газированный",
+   "composition": "ВОДА ПИТЬЕВАЯ, АРОМАТИЗАТОР, КОНСЕРВАНТЫ СОРБАТ КАЛИЯ И БЕНЗОАТ НАТРИЯ, РЕГУЛЯТОР КИСЛОТНОСТИ ЛИМОННАЯ КИСЛОТА.",
+   "net_quantity": "1l",
+   "storage": null,
+   "energy_kcal": 0,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 0
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/333/400/3639/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/333/400/3639/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4602117001107",
+  "code": "4602117001107",
+  "category": "other",
+  "truth": {
+   "name": "Творог 5%",
+   "composition": "Молоко обезжиренное, молоко цельное, закваска.",
+   "net_quantity": "180g",
+   "storage": null,
+   "energy_kcal": 121,
+   "proteins_g": 16,
+   "fats_g": 5,
+   "carbohydrates_g": 3
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/211/700/1107/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/211/700/1107/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/211/700/1107/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4601347002212",
+  "code": "4601347002212",
+  "category": "other",
+  "truth": {
+   "name": "Батон нарезной в нарезке",
+   "composition": "Мука пшеничная хлебопекарная высшего сорта, вода, сахар белый, масло подсолнечное, соль, дрожжи хлебопекарные прессованные.   _ молочные продукты, кунжут _.",
+   "net_quantity": "400 g",
+   "storage": null,
+   "energy_kcal": 260,
+   "proteins_g": 7.5,
+   "fats_g": 3,
+   "carbohydrates_g": 51
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/134/700/2212/4.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/134/700/2212/2.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/134/700/2212/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607058033804",
+  "code": "4607058033804",
+  "category": "other",
+  "truth": {
+   "name": "Яйца куриные пищевые столовые отборной категории",
+   "composition": "Яйцо",
+   "net_quantity": "65г",
+   "storage": null,
+   "energy_kcal": 144,
+   "proteins_g": 12.7,
+   "fats_g": 10,
+   "carbohydrates_g": 0.7
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/705/803/3804/1.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/705/803/3804/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4640017350673",
+  "code": "4640017350673",
+  "category": "other",
+  "truth": {
+   "name": "Сливки Село зеленое 10%",
+   "composition": "Сливки нормализованные",
+   "net_quantity": "500гр.",
+   "storage": null,
+   "energy_kcal": 118,
+   "proteins_g": 2.6,
+   "fats_g": 10,
+   "carbohydrates_g": 4.5
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/464/001/735/0673/1.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/464/001/735/0673/3.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/464/001/735/0673/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607174577787",
+  "code": "4607174577787",
+  "category": "other",
+  "truth": {
+   "name": "палпи 0,5 в холодильнике смотка",
+   "composition": "Апельсиновый сок, сахар, мякоть апельсина, регулятор кислотности - лимонная кислота, стабилизаторы: пектины, гуммиарабик, эфиры глицерина и смоляных кислот; антиокислитель - аскорбиновая кислота; краситель - каротины, натуральные ароматизаторы, очищенная артезианская вода.",
+   "net_quantity": "0,45 л",
+   "storage": null,
+   "energy_kcal": 46,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 11.6
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/717/457/7787/1.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/717/457/7787/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600605034514",
+  "code": "4600605034514",
+  "category": "other",
+  "truth": {
+   "name": "Биойогурт Персик-малина без сахара АктиБио",
+   "composition": "нормализованное молоко, восстановленное молоко из сухого молока, наполнитель (вода, концентрированный яблочный сок, персик, кукурузный крахмал, концентрированое пюре персика, малина, натуральные ароматизаторы, краситель - бета-каротин из Blakeslea trispora, подсластить - стевиолгликозиды, стабилизатор - пектины, концентрированный лимонный сок), йогуртовая закраска, бифидобактерии Bioregularis*.",
+   "net_quantity": "260 g",
+   "storage": null,
+   "energy_kcal": 52,
+   "proteins_g": 3,
+   "fats_g": 1.5,
+   "carbohydrates_g": 6.7
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/4514/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/4514/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/4514/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607083550482",
+  "code": "4607083550482",
+  "category": "grocery",
+  "truth": {
+   "name": "Олейна \"Классическая\"",
+   "composition": "МАСЛО ПОДСОЛНЕЧНОЕ РАФИНИРОВАННОЕ ДЗОДОРИРОВАННОЕ «ПЕРВЫЙ СОРТ»",
+   "net_quantity": "1 L",
+   "storage": null,
+   "energy_kcal": 899,
+   "proteins_g": 0,
+   "fats_g": 99.9,
+   "carbohydrates_g": 0
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/708/355/0482/2.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/708/355/0482/4.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/708/355/0482/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4610169567113",
+  "code": "4610169567113",
+  "category": "other",
+  "truth": {
+   "name": "Батончик неглазированный со вкусом «Малиновый чизкейк»",
+   "composition": "Белковая смесь (концентрат сывороточного белка, концентрат молочного белка), водорастворимые волокна кукурузы, вода, малина, масло растительное, агент влагоудерживающий (глицерин), подсластитель (сорбит), соль, ароматизаторы натуральные, регулятор кислотности (лимонная кислота), эмульгатор (соевый лецитин), антиокислитель (аскорбиновая кислота), подсластитель (стевиолгликозиды).",
+   "net_quantity": "60 г",
+   "storage": null,
+   "energy_kcal": 288.333333333333,
+   "proteins_g": 33.3333333333333,
+   "fats_g": 7.16666666666667,
+   "carbohydrates_g": 5.83333333333333
+  },
+  "photos": [
+   {
+    "imgid": "8",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/461/016/956/7113/8.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/461/016/956/7113/5.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/461/016/956/7113/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607015232585",
+  "code": "4607015232585",
+  "category": "sweets",
+  "truth": {
+   "name": "ЯШКИНО ВАФЛИ СЛИВОЧНЫЕ",
+   "composition": "Мука пшеничная хлебопекарная, сахар, масла растительные, сыворотка молочная сухая, крахмал кукурузный, соль, разрыхлители: гидрокарбонат аммония, гидрокарбонат натрия; ароматизаторы, эмульгатор: лецитин соевый; антиокислитель: концентрат смеси Токоферолов.",
+   "net_quantity": "200 г",
+   "storage": null,
+   "energy_kcal": 540,
+   "proteins_g": 4.5,
+   "fats_g": 30,
+   "carbohydrates_g": 62
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/2585/7.jpg"
+   },
+   {
+    "imgid": "6",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/701/523/2585/6.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4690502001238",
+  "code": "4690502001238",
+  "category": "other",
+  "truth": {
+   "name": "Кефир 1 %",
+   "composition": "КЕФИР, МАССОВАЯ ДОЛЯ ЖИРА 1,0% Состав (буквенный код компонента сос - тава см. на крышке): нормализованное молоко (Р) или нормализованное молоко, восстановленное молоко из сухого молока (У), закваска на кефирных грибках. Может содержать следы глютена.",
+   "net_quantity": "930 г",
+   "storage": null,
+   "energy_kcal": 38,
+   "proteins_g": 3.2,
+   "fats_g": 1,
+   "carbohydrates_g": 4
+  },
+  "photos": [
+   {
+    "imgid": "6",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/050/200/1238/6.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/050/200/1238/2.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/050/200/1238/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607065714116",
+  "code": "4607065714116",
+  "category": "other",
+  "truth": {
+   "name": "Dr.Korner кукурузно-рисовые хлебцы \"Прованские травы\"",
+   "composition": "Кукуруза лопающаяся жёлтая для приготовления попкорна, крупа кукурузная, крупа рисовая: рис шлифованный, пряности «Прованские травы», соль йодированная",
+   "net_quantity": "100г",
+   "storage": null,
+   "energy_kcal": 170,
+   "proteins_g": 7,
+   "fats_g": 1,
+   "carbohydrates_g": 68
+  },
+  "photos": [
+   {
+    "imgid": "6",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/571/4116/6.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/571/4116/4.jpg"
+   },
+   {
+    "imgid": "7",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/571/4116/7.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4604248014575",
+  "code": "4604248014575",
+  "category": "sweets",
+  "truth": {
+   "name": "Трубочки Хрустящие Со Вкусом Сгущенного Молока",
+   "composition": "Мука пшеничная, сахар, масла растительные (пальмовое, подсолнечное, соевое), сыворотка молочная сухая, мука кукурузная, мука рисовая, соль, эмульгатор лецитины, ароматизатор, антиокислители (аскорбилпальмитат; токоферолы, концентрат смеси)",
+   "net_quantity": "400 г",
+   "storage": null,
+   "energy_kcal": 464,
+   "proteins_g": 5.8,
+   "fats_g": 17.9,
+   "carbohydrates_g": 69.9
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/424/801/4575/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/424/801/4575/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/424/801/4575/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4604248000554",
+  "code": "4604248000554",
+  "category": "other",
+  "truth": {
+   "name": "Майонез «Провансаль»",
+   "composition": "масло подсолнечное\r\nрафинированноедезодорированное, вода, яичный желток,\r\nкрахмал кукурузный, соль поваренная пищевая, уксус из\r\nпищевого сырья, масло горчичное, консервант сорбиновая\r\nкислота, краситель β-каротин, экстракт перца черного,\r\nподсластитель сахарин.",
+   "net_quantity": "820 ml",
+   "storage": null,
+   "energy_kcal": 461,
+   "proteins_g": 0,
+   "fats_g": 50.5,
+   "carbohydrates_g": 1.5
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/424/800/0554/4.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/424/800/0554/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4602358003670",
+  "code": "4602358003670",
+  "category": "other",
+  "truth": {
+   "name": "Пломбир шоколадный",
+   "composition": "Сливки, молоко цельное сгущенное с сахаром, молоко концентрированное обезжиренное, сахар, вафельный стаканчик (мука пшеничная хлебопекарная, крахмал кукурузный, масло кокосовое рафинированное дезодорированное, эмульгатор соевый лецитин, сахар, соль пищевая, разрыхлитель: гидрокарбонат натрия (сода пищевая), вода питьевая). какао-порошок, масло сливочное, шоколадный порошок (сахар, какао тертое, обезжиренный какао-порошок, натуральный ароматизатор ваниль), смесь пищевых эмульгаторов и стабилизаторов (эмульгатор: моно - и диглицериды жирных кислот, стабилизаторы: камедь рожкового дерева, гуаровая камедь, каррагинан).",
+   "net_quantity": "100 g",
+   "storage": null,
+   "energy_kcal": 260,
+   "proteins_g": 4.5,
+   "fats_g": 15,
+   "carbohydrates_g": 26
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/235/800/3670/4.jpg"
+   },
+   {
+    "imgid": "6",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/235/800/3670/6.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/235/800/3670/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600680003573",
+  "code": "4600680003573",
+  "category": "other",
+  "truth": {
+   "name": "Золотой бульон с курицей бульонные кубики",
+   "composition": "ЙОДИРОВАННАЯ СОЛЬ (СОЛЬ, ЙОДАТ КАЛИЯ), САХАР, КРАХМАЛ КУКУРУЗНЫЙ, СИРОП ГЛЮКОЗНЫЙ СУХОЙ, ГОВЯЖИЙ ЖИР ТОПЛЕНЫЙ, КУКУРУЗНЫЙ СОУС (КРАХМАЛ КУКУРУЗНЫЙ, СОЛЬ), КУРИНЫЙ ЖИР ТОПЛЕНЫЙ, ВОДА, АРОМАТИЗАТОРЫ (СОДЕРЖИТ ГЛЮТЕН), ОВОЩИ И ЗЕЛЕНЬ СУШЕНЫЕ (СЕЛЬДЕРЕЙ, ПЕТРУШКА, МОРКОВЬ, ЧЕСНОК, ЛУК РЕПЧАТЫЙ), СПЕЦИИ МОЛОТЫЕ (КУРКУМА, ПЕРЕЦ ЧЕРНЫЙ, КАРРИ, ЛАВРОВЫЙ ЛИСТ), РЕГУЛЯТОР КИСЛОТНОСТИ (ЛИМОННАЯ КИСЛОТА). ПРОДУКТ МОЖЕТ СОДЕРЖАТЬ МОЛОКО.",
+   "net_quantity": "9 г × 8 шт (72 г)",
+   "storage": null,
+   "energy_kcal": 250,
+   "proteins_g": 2.3,
+   "fats_g": 7.1,
+   "carbohydrates_g": 44
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/068/000/3573/7.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/068/000/3573/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/068/000/3573/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4601780000790",
+  "code": "4601780000790",
+  "category": "other",
+  "truth": {
+   "name": "Макароны \"Макфа\"",
+   "composition": "Изделия макаронные группад RU высший сорт. ГОСТ 31743 COСTAB: МУКА из твёрдой пшеницы для макаронных изделий высшего сорта, вода питьевая.",
+   "net_quantity": "450 г",
+   "storage": null,
+   "energy_kcal": 350,
+   "proteins_g": 12,
+   "fats_g": 1.5,
+   "carbohydrates_g": 7.1
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/178/000/0790/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/178/000/0790/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622210710925",
+  "code": "7622210710925",
+  "category": "sweets",
+  "truth": {
+   "name": "Belvita",
+   "composition": "Злаки мука пшеничная 21%, цельнозерновые злаки 16% (крупа гречневая 6%, крупа овсяная 6%, мука цельнная цельнозерновая 19%, мука из пшеницы спельты цельнозерновая 1%, хлопья овсяные 1%, мука пшеничная цельнозерновая 19%, мука рисовая 2% мука пшеничная солодовая 0,1%, сахар, масло растительное, вода, загуститель (дикрахмалфосфиг, инули, изомальтулоза aгент влагоудерживающий (глицерин), крахмал кукурузный, какао-порошок, жир растительный, нинеральные вещества (карбонат кальция, карбонат магния, железо), эмульгатор (лецитин соевый), стабилизатор (мальгит, соль аылитель (гидрокарбонат натрия, глютен пшеничный, декстроза, ароматизаторы. Может содержать следы молочных продуктов.",
+   "net_quantity": "250 г",
+   "storage": null,
+   "energy_kcal": 408,
+   "proteins_g": 0.59,
+   "fats_g": 15,
+   "carbohydrates_g": 62
+  },
+  "photos": [
+   {
+    "imgid": "3",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/071/0925/3.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/071/0925/2.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/071/0925/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607109470992",
+  "code": "4607109470992",
+  "category": "other",
+  "truth": {
+   "name": "Молоко цельное сгущенное с сахаром 8,5 %",
+   "composition": "молоко нормализованное, сахар (сахароза), сахар молочный пищевой (лактоза),",
+   "net_quantity": "270 г",
+   "storage": null,
+   "energy_kcal": 330,
+   "proteins_g": 7.5,
+   "fats_g": 8.5,
+   "carbohydrates_g": 56
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/710/947/0992/7.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/710/947/0992/5.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/710/947/0992/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600605032541",
+  "code": "4600605032541",
+  "category": "other",
+  "truth": {
+   "name": "Творожок Ананас-Банан",
+   "composition": "Творог обезжиренный, нормализованные сливки, наполнитель (вода, сахар, кукурузный крахмал, сок лимона, ананас, пюре банана, натуральные ароматизаторы, краситель - каротины), сахар.",
+   "net_quantity": "110 г",
+   "storage": null,
+   "energy_kcal": 111,
+   "proteins_g": 6.8,
+   "fats_g": 3.6,
+   "carbohydrates_g": 12.9
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/2541/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/2541/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4870055001248",
+  "code": "4870055001248",
+  "category": "other",
+  "truth": {
+   "name": "Сметана 15% PREZIDENT",
+   "composition": "Нормализованные сливки, закваска. Пищевая ценность 100 г продукта: жир - 15,0 г; белок - 2,2 г; углеводы - 4,0 г. Энергетическая Ценность (калорийность) — 670 кДж (160 ккал). 200г Количество молочнокислых микроорганизмов - не менее 1х10 КОЕ/.",
+   "net_quantity": "200 грамм",
+   "storage": null,
+   "energy_kcal": 160,
+   "proteins_g": 2.2,
+   "fats_g": 15,
+   "carbohydrates_g": 4
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/487/005/500/1248/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/487/005/500/1248/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_46279101",
+  "code": "46279101",
+  "category": "other",
+  "truth": {
+   "name": "Нескафе раф",
+   "composition": "САХАР, ГЛЮКОЗНЫЙ СИРОП, МАСЛО ПАЛЬМОЯДРСЗОЕ, КОФЕ НАТУРАЛЬНЫЙ РАСТВОРИМЫЙ NESCAFÉ®, МАСЛО КОКОСОВОЕ, ОБЕЗЖИРЕННОЕ СУХОЕ МОЛОКО, АРОМАТИЗАТОРЫ, СТАБИЛИЗАТОРЫ (Е340(ii), Е331(iii), E452(i), Е471, Е472E), СЫВОРОТКА МОЛОЧНАЯ СУХАЯ, МОЛОЧНЫЙ БЕЛОК, АГЕНТ АНТИСЛЕЖИВАЮЩИЙ (Е170), СОЛЬ.",
+   "net_quantity": "17 g",
+   "storage": null,
+   "energy_kcal": 434,
+   "proteins_g": 2.2,
+   "fats_g": 12,
+   "carbohydrates_g": 77
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/46279101/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/46279101/2.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/46279101/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607003861872",
+  "code": "4607003861872",
+  "category": "sweets",
+  "truth": {
+   "name": "Печенье овсяное «Искусство жить» со злаками на мальтите",
+   "composition": "Мука пшеничная высшего сорта, подсластитель мальтит, масло подсолнечное рафинированное дезодорированное, вода питьевая, мука овсяная, хлопья овсяные, изюм, загуститель полидекстроза, семена льна, кунжут, хлопья ржаные, хлопья ячменные, мука рисовая цельнозерновая, разрыхлитель - гидрокарбонат натрия (сода пищевая), соль пищевая, корица, экстракт ванили натуральный",
+   "net_quantity": "200 г",
+   "storage": null,
+   "energy_kcal": 419,
+   "proteins_g": 6.2,
+   "fats_g": 19.7,
+   "carbohydrates_g": 61.7
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/386/1872/1.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/386/1872/3.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/700/386/1872/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4606038088919",
+  "code": "4606038088919",
+  "category": "other",
+  "truth": {
+   "name": "Какао и фундук",
+   "composition": "Сахар, растительные масла (пальмовое, подсолнечное) паста ореховая из ядер фундука (13%), како-порошок, молоко сухое обезжиренное, эмульгатор (соевый лецитин), ароматизаторы, антиокислители (E304, E306).",
+   "net_quantity": "350",
+   "storage": null,
+   "energy_kcal": 560,
+   "proteins_g": 6,
+   "fats_g": 34,
+   "carbohydrates_g": 57
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/603/808/8919/2.jpg"
+   },
+   {
+    "imgid": "1",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/603/808/8919/1.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/603/808/8919/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600494694172",
+  "code": "4600494694172",
+  "category": "other",
+  "truth": {
+   "name": "Напиток безалкогольный тонизирующий газированный «Адреналин игровая энергия» («ADRENALINE GAME FUEL»)",
+   "composition": "ВОДА, САХАР, РЕГУЛЯТОРЫ КИСЛОТНОСТИ (КИСЛОТА ЛИМОННАЯ, ЦИТРАТ НАТРИЯ 3-ЗАМЕЩЕННЫЙ), ТАУРИН, АРОМАТИЗАТОРЫ, КОФЕИН, КРАСИТЕЛИ (САХАРНЫЙ КОЛЕР III, РИБОФЛАВИН), СТАБИЛИЗАТОР ПЕКТИНЫ, НИАЦИН, ПОДСЛАСТИТЕЛЬ СУКРАЛОЗА, ЭКСТРАКТ КОРНЯ ЖЕНЬШЕНЯ, ПАНТОТЕНОВАЯ КИСЛОТА, ВИТАМИНЫ (В6, В12).",
+   "net_quantity": "449 ml",
+   "storage": null,
+   "energy_kcal": 18,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 4.2
+  },
+  "photos": [
+   {
+    "imgid": "8",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/049/469/4172/8.jpg"
+   },
+   {
+    "imgid": "7",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/049/469/4172/7.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/049/469/4172/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600699502210",
+  "code": "4600699502210",
+  "category": "other",
+  "truth": {
+   "name": "майонез провансаль слобода оранжевый маленький",
+   "composition": "noдсолнечное масло, вода, сахар 2 %, яичный желток, соль поваренная 1.2 %, уксус, горчичное масло",
+   "net_quantity": "375 г",
+   "storage": null,
+   "energy_kcal": 612,
+   "proteins_g": 0.4,
+   "fats_g": 67.2,
+   "carbohydrates_g": 2
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/2210/4.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/2210/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/950/2210/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600699006183",
+  "code": "4600699006183",
+  "category": "other",
+  "truth": {
+   "name": "Майонез 67% на перепелиных яйцах",
+   "composition": "Подсолнечное масло, оливковое масло, вода, продукты яичные (яичный желток, меланж из перепелиных яиц), сахар, соль поваренная, уксус, горчичное масло.",
+   "net_quantity": "656г",
+   "storage": null,
+   "energy_kcal": 610,
+   "proteins_g": 0.2,
+   "fats_g": 67,
+   "carbohydrates_g": 2
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/900/6183/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/900/6183/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/069/900/6183/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4640001731716",
+  "code": "4640001731716",
+  "category": "cheese",
+  "truth": {
+   "name": "Чеддер плавленный сыр",
+   "composition": "Сыры твердые и полутвердые, в том числе сыр чеддер (содержат лизоцим (продукт ферментный препарат животного происхождения сухое обезжиренное молоко, эмульгаторы (цитраты натрия, фосфаты натрия, фосфаты калия, полифосфат натрия), комплексная пищевая добавка носитель (Е414), натуральные (соль, декстроза, мальтодекстрин, переработки яиц)), вкусоароматические вода питьевая, сливочное, масло вкусоароматические вещества, из препараты, водорослей экстракты дрожжей), стабилизаторы (каррагинан EUCHEMA, ксантановая камедь, Е466), агент желирующий (хлорид калия), краситель (Е160b), консерванты (сорбиновая кислота, низин), регуляторы кислотности (гидроксид калия, лимонная кислота).",
+   "net_quantity": "140 г",
+   "storage": null,
+   "energy_kcal": 300,
+   "proteins_g": 16,
+   "fats_g": 23,
+   "carbohydrates_g": 6
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/464/000/173/1716/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/464/000/173/1716/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/464/000/173/1716/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4680046729521",
+  "code": "4680046729521",
+  "category": "sweets",
+  "truth": {
+   "name": "Milky Молочный шоколад со сливочной начинкой",
+   "composition": "Молочный шоколад (водорастворимые волокна кукурузы, масло какао, какао тёртое, молоко сухое обезжиренное, эмульгатор (соевый лецитин), ароматизаторы натуральные, подсластитель (сукралоза)), сливочная начинка (масло кокосовое, аллюлоза, водорастворимые волокна кукурузы, молоко сухое обезжиренное, эмульгатор (соевый лецитин), ароматизаторы натуральные, подсластитель (сукралоза)). Может содержать незначительное количество фундука.",
+   "net_quantity": "34 g",
+   "storage": null,
+   "energy_kcal": 464.705882352941,
+   "proteins_g": 9,
+   "fats_g": 36,
+   "carbohydrates_g": 11
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/468/004/672/9521/5.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/468/004/672/9521/2.jpg"
+   },
+   {
+    "imgid": "6",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/468/004/672/9521/6.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_8680474900710",
+  "code": "8680474900710",
+  "category": "sweets",
+  "truth": {
+   "name": "Набор \"Молочный шоколад\"",
+   "composition": "Молочный шоколад [сахар, какао масло, цельное сухое молоко, обезжиренное сухое молоко, какао масса, молочное масло, эмульгатор (лецитин подсолнечника), ваниль].",
+   "net_quantity": "54 г",
+   "storage": null,
+   "energy_kcal": 535,
+   "proteins_g": 7.1,
+   "fats_g": 37.8,
+   "carbohydrates_g": 53
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/868/047/490/0710/5.jpg"
+   },
+   {
+    "imgid": "1",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/868/047/490/0710/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/868/047/490/0710/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4602112503606",
+  "code": "4602112503606",
+  "category": "other",
+  "truth": {
+   "name": "Геркулес нежный",
+   "composition": "овсяные хлопья.",
+   "net_quantity": "450 г",
+   "storage": null,
+   "energy_kcal": 362,
+   "proteins_g": 12,
+   "fats_g": 6,
+   "carbohydrates_g": 62
+  },
+  "photos": [
+   {
+    "imgid": "11",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/211/250/3606/11.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/211/250/3606/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4690228006845",
+  "code": "4690228006845",
+  "category": "other",
+  "truth": {
+   "name": "Молочный Коктейль Клубника",
+   "composition": "Молоко нормализованное, молоко восстановленное (В)**, вода, сахар, стабилизатор - Е407, стабилизатор - гуаровая камедь (R)**, ароматизатор, краситель - кармины.",
+   "net_quantity": "0.9",
+   "storage": null,
+   "energy_kcal": 71,
+   "proteins_g": 2.8,
+   "fats_g": 2,
+   "carbohydrates_g": 10.5
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/022/800/6845/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/022/800/6845/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/022/800/6845/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600605032268",
+  "code": "4600605032268",
+  "category": "other",
+  "truth": {
+   "name": "Сливки 10%",
+   "composition": "Сливки нормализованные.",
+   "net_quantity": "205 g",
+   "storage": null,
+   "energy_kcal": 118,
+   "proteins_g": 2.7,
+   "fats_g": 10,
+   "carbohydrates_g": 4.2
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/2268/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/2268/3.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/060/503/2268/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622210453853",
+  "code": "7622210453853",
+  "category": "sweets",
+  "truth": {
+   "name": "юбилейное",
+   "composition": "Мука ПШЕНИЧНАЯ, Сахар, масла растительные (рапсовое, пальмовое), жир растительный, вода, сыворотка сухая МОЛОЧНАЯ, сироп глюкозно-фруктозный, какао-порошок, МОЛОКО сухое обезжиренное, разрыхлители (гидрокарбонат натрия, гидрокарбонат аммония), ароматизаторы, соль, эмульгаторы (лецитин СОЕВЫЙ, Е492, E476), продукт ЯИЧНЫЙ, витаминно-минеральный комплекс (ниацин, витамин В6, витамин В1, витамин B2, фолиевая кислота). МОЖЕТ СОДЕРЖАТЬ СЛЕДЫ ОРЕХОВ.",
+   "net_quantity": "116g; 8pcs",
+   "storage": null,
+   "energy_kcal": 480,
+   "proteins_g": 7,
+   "fats_g": 21,
+   "carbohydrates_g": 65
+  },
+  "photos": [
+   {
+    "imgid": "7",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/045/3853/7.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/221/045/3853/5.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_7622201426668",
+  "code": "7622201426668",
+  "category": "sweets",
+  "truth": {
+   "name": "Bitter Горький шоколад 70% какао",
+   "composition": "какао тёртое, какао-порошок, сахар, масло какао, ароматизатор.",
+   "net_quantity": "80г",
+   "storage": null,
+   "energy_kcal": 529.6,
+   "proteins_g": 9.4,
+   "fats_g": 38,
+   "carbohydrates_g": 30
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/220/142/6668/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/220/142/6668/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/762/220/142/6668/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4860019003104",
+  "code": "4860019003104",
+  "category": "other",
+  "truth": {
+   "name": "Грузинский лимонад Limonati тархун",
+   "composition": "ОБЩЕЕ СОДЕРЖАНИЕ СОКА - НЕ МЕНЕЕ 10%. ПРИРОДНАЯ ПИТЬЕВАЯ ВОДА ИЗ РОДНИКОВ БОРЖОМСКОГО УЩЕЛЬЯ, ВОДА МИНЕРАЛЬНАЯ ПРИРОДНАЯ ЛЕЧЕБНО-СТОЛОВАЯ ПИТЬЕВАЯ «БОРЖОМИ», САХАР, КОНЦЕНТРИРОВАННЫЙ ЯБЛОЧНЫЙ СОК (7,8%), ЯБЛОЧНЫЙ СОК (1,39%), КОНЦЕНТРИРОВАННЫЙ ЛИМОННЫЙ СОК (0,88%), РЕГУЛЯТОРЫ КИСЛОТНОСТИ ЛИМОННАЯ КИСЛОТА И АСКОРБИНОВАЯ КИСЛОТА, КРАСИТЕЛЬ МЕДНЫЕ КОМПЛЕКСЫ ХЛОРОФИЛЛИНОВ, ЭКСТРАКТ ТАРХУНА. ДОПУСКАЕТСЯ ОСАДОК ЕСТЕСТВЕННОГО ПРОИСХОЖДЕНИЯ.",
+   "net_quantity": "330 ml",
+   "storage": null,
+   "energy_kcal": 42.4242424242424,
+   "proteins_g": 0,
+   "fats_g": 0,
+   "carbohydrates_g": 10
+  },
+  "photos": [
+   {
+    "imgid": "6",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/486/001/900/3104/6.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/486/001/900/3104/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/486/001/900/3104/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607178795705",
+  "code": "4607178795705",
+  "category": "other",
+  "truth": {
+   "name": "Сливки безлактозные 10%",
+   "composition": "Сливки нормализованные, ферментный препарат «LACTAPROQ».",
+   "net_quantity": "10 x 10г",
+   "storage": null,
+   "energy_kcal": 118,
+   "proteins_g": 2.6,
+   "fats_g": 10,
+   "carbohydrates_g": 4.5
+  },
+  "photos": [
+   {
+    "imgid": "5",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/717/879/5705/5.jpg"
+   },
+   {
+    "imgid": "1",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/717/879/5705/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/717/879/5705/2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4606038076428",
+  "code": "4606038076428",
+  "category": "other",
+  "truth": {
+   "name": "Хлопья пшенные, не требующие варки",
+   "composition": "ХЛОПЬЯ ПШЕННЫЕ, НЕ ТРЕБУЮЩИЕ ВАРКИ. Не содержит ГМО. Возмож но наличие незначительного количества глютена.",
+   "net_quantity": "400 г",
+   "storage": null,
+   "energy_kcal": 360,
+   "proteins_g": 10,
+   "fats_g": 2.5,
+   "carbohydrates_g": 75
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/603/807/6428/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/603/807/6428/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/603/807/6428/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4607065580278",
+  "code": "4607065580278",
+  "category": "other",
+  "truth": {
+   "name": "Картофельное пюре быстрого приготовления «Доширак» со вкусом мяса",
+   "composition": "картофельные хлопья, жир растительный, соль йодированная, гренки, лук жареный, усилитель вкуса (глутамат натрия), сахар, чеснок сушёный, куркума, ароматизатор идентичный натуральному «копчёная говядина», петрушка, лук сушёный зелёный, пшеничная мука, продукты переработки молока",
+   "net_quantity": "40 g",
+   "storage": null,
+   "energy_kcal": 353,
+   "proteins_g": 5.1,
+   "fats_g": 5.3,
+   "carbohydrates_g": 71.2
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/558/0278/1.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "ingredients",
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/706/558/0278/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4601347010989",
+  "code": "4601347010989",
+  "category": "other",
+  "truth": {
+   "name": "Мягкие зерновые хлебцы на ржаной закваске",
+   "composition": "мука пшеничная хлебопекарная высшего сорта,\r\nвода, семена тыквы, семена подсолнечника,\r\nсемена льна, мука ржаная хлебопекарная обдирная,\r\nмеланж, сахар белый,\r\nсахарный сироп, пшеничная клейковина, дрожжи хлебопекарные прессованные,\r\nсолодовый экстракт жидкий (солод ячменный, вода),\r\nсоль, масло подсолнечное рафинированное дезодорированное,\r\nсухая ржаная закваска.",
+   "net_quantity": "260 г (4 шт. по 65 г)",
+   "storage": null,
+   "energy_kcal": 340,
+   "proteins_g": 10,
+   "fats_g": 13,
+   "carbohydrates_g": 45
+  },
+  "photos": [
+   {
+    "imgid": "6",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/134/701/0989/6.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/134/701/0989/2.jpg"
+   },
+   {
+    "imgid": "7",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/134/701/0989/7.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4690388104344",
+  "code": "4690388104344",
+  "category": "other",
+  "truth": {
+   "name": "Сухарики со вкусом \"Сливочный лосось\"",
+   "composition": "Крупа кукурузная, мука ржаная, мука пшеничная, масло рапсовое, солод ржаной, ароматизатор [порошок молочной сыворотки, сахар, соль, усилители вкуса и аромата (глутамат натрия 1-замещенный, 15-гуанилат натрия 2-замещенный, 5-инозинат натрия 2-замещенный), вкусоароматические вещества (содержат казеинат натрия, производные сливочного ` масла, масло лосося, порошок тунца, рыбный порошок), сироп глюкозный (содержит глютен), агент желирующий (хлорид калия), термический технологический ароматизатор, красители (экстракт паприки, каротины), овощи сушёные (укроп, петрушка), порошок лимона), пшеничные отруби",
+   "net_quantity": "40g",
+   "storage": null,
+   "energy_kcal": 430,
+   "proteins_g": 9,
+   "fats_g": 14,
+   "carbohydrates_g": 66
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/038/810/4344/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/038/810/4344/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/469/038/810/4344/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_8801052728254",
+  "code": "8801052728254",
+  "category": "other",
+  "truth": {
+   "name": "Майонез пикантный",
+   "composition": "Соевое масло, сахар, соль, уксусная кислота, смесь приправ, эфирное масло горчицы, яичный желток, вода, уксус.",
+   "net_quantity": "500g",
+   "storage": null,
+   "energy_kcal": 685,
+   "proteins_g": 1,
+   "fats_g": 74,
+   "carbohydrates_g": 4
+  },
+  "photos": [
+   {
+    "imgid": "4",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/880/105/272/8254/4.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/880/105/272/8254/5.jpg"
+   },
+   {
+    "imgid": "7",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/880/105/272/8254/7.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4630024630721",
+  "code": "4630024630721",
+  "category": "other",
+  "truth": {
+   "name": "Пюре картофельное с куриные филе, приправами и овощами",
+   "composition": "Пюре картофельное: хлопья картофельные (картофель свежий, эмульгатор Е471, стабилизатор E450i, антиокислитель Е304, регулятор кислотности лимонная кислота, консервант Е223, краситель - куркумин), заменитель сухих сливок на растительной основе (патока, масло растительное, эмульгаторы - Е471, E481; стабилизаторы - Е340, Е452і; молочный белок), лук репчатый жареный, соль, комплексная пищевая добавка (жир растительный, лактоза, молочный белок, эмульгатор E471), лук зеленый сушеный, сахар, усилители вкуса и аромата - E621, E627, E631; агент антислеживающий Е536. Консервы мясорастительные из мяса кур стерилизованные. «Филе куриное с приправами»: вода, филе куриное, масло растительное, лук репчатый сушеный, порошок чесночный, перец черный молотый, соль, сахар, ароматизатор, усилитель вкуса и аромата Е621, загуститель Е1442.",
+   "net_quantity": "110g",
+   "storage": null,
+   "energy_kcal": 240,
+   "proteins_g": 7.5,
+   "fats_g": 4.5,
+   "carbohydrates_g": 40.1
+  },
+  "photos": [
+   {
+    "imgid": "2",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/463/002/463/0721/2.jpg"
+   },
+   {
+    "imgid": "5",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/463/002/463/0721/5.jpg"
+   },
+   {
+    "imgid": "4",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/463/002/463/0721/4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4600528364583",
+  "code": "4600528364583",
+  "category": "other",
+  "truth": {
+   "name": "майонез провансаль сдобри",
+   "composition": "Масло подсолнечное рафинированное дезодорированное, вода, сахар, яичный желток сухой, соль, уксус спиртовой, эфир ное горчичное масло, экстракт перца, экстракт моркови. Продукт может содержать следы молока, сельдерея, аспартама и продукто их переработки.",
+   "net_quantity": "670мл.",
+   "storage": null,
+   "energy_kcal": 615,
+   "proteins_g": 0.5,
+   "fats_g": 67,
+   "carbohydrates_g": 2.5
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/052/836/4583/1.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/052/836/4583/2.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/460/052/836/4583/3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "off_4620017455592",
+  "code": "4620017455592",
+  "category": "sweets",
+  "truth": {
+   "name": "TONDI Choco pie с маршмеллоу смотка",
+   "composition": "сахар, мука пшеничная, глюкозный сироп, масла растительные, заменитель молочного жира (pacтительные масла, эмульгатор: моно - и диглицериды жирных кислот; антиокислитель: Токоферопы, концентрат смеси); декстроза моногидрат, влагоудерживающий агент: сорбитовый сироп, комплексная пищевая добавка (рисовая мука, эмульгатор: эфиры полиглицерина и жирных кислот); сыворотка молочная сухая, сухое цельное молоко, разрыхлители: гидрокарбонат натрия, гидрокарбонат аммония, E341(i); желатин, продукты яичные, соль, какао-порошок, эмульгаторы: лецитины соевые, Е476; какао тертое, белок соевый, ароматизаторы. Может содержать следы диоксида серы и фундука.",
+   "net_quantity": "6x30g",
+   "storage": null,
+   "energy_kcal": 420,
+   "proteins_g": 4.5,
+   "fats_g": 16,
+   "carbohydrates_g": 64
+  },
+  "photos": [
+   {
+    "imgid": "1",
+    "kinds": [
+     "front"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/462/001/745/5592/1.jpg"
+   },
+   {
+    "imgid": "3",
+    "kinds": [
+     "ingredients"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/462/001/745/5592/3.jpg"
+   },
+   {
+    "imgid": "2",
+    "kinds": [
+     "nutrition"
+    ],
+    "url": "https://images.openfoodfacts.org/images/products/462/001/745/5592/2.jpg"
+   }
+  ]
+ }
+]

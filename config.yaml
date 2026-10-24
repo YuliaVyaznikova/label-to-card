@@ -1,0 +1,49 @@
+paths:
+  data: data
+  drafts: data/drafts
+  cache: data/cache
+
+vlm:
+  base_url: https://polza.ai/api/v1
+  model: qwen/qwen3-vl-235b-a22b-instruct
+  candidates:
+    - qwen/qwen3-vl-8b-instruct
+    - qwen/qwen3-vl-30b-a3b-instruct
+    - qwen/qwen3-vl-235b-a22b-instruct
+  max_pixels: 2560000
+  temperature: 0
+  max_tokens: 2000
+  retries: 4
+
+ocr:
+  max_pixels: 4000000
+  rotations: [90, 270]
+  min_confidence: 0.5
+  enough_letters: 40
+  row_overlap: 0.5
+  column_gap: 3
+
+classify:
+  model: google/siglip2-base-patch16-224
+  device: cpu
+  keyword_weight: 0.3
+
+verify:
+  text_ratio: 85
+  coverage: 0.8
+  long_text: 60
+  conflict_tolerance: 0.01
+
+readiness:
+  confidence: 0.6
+
+quality:
+  min_pixels: 1000000
+  sharpness: 100
+  dark: 50
+  bright: 210
+
+description:
+  min_length: 100
+  max_length: 700
+  attempts: 2

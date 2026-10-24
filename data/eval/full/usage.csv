@@ -1,0 +1,6 @@
+,,prompt_tokens,prompt_tokens,completion_tokens,completion_tokens,seconds,seconds
+,,sum,median,sum,median,sum,median
+model,method,,,,,,
+qwen/qwen3-vl-235b-a22b-instruct,baseline,977308,2813.0,50916,151.0,3508.9,8.4
+qwen/qwen3-vl-235b-a22b-instruct,nocheck,1169691,3350.0,124308,461.5,4044.1,14.9
+qwen/qwen3-vl-235b-a22b-instruct,pipeline,1169691,3350.0,124308,461.5,4044.1,14.9

@@ -1,0 +1,1096 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "Карточка товара за три минуты",
+  "version": "1.0"
+ },
+ "paths": {
+  "/v1/drafts": {
+   "post": {
+    "summary": "Create Draft",
+    "operationId": "create_draft_v1_drafts_post",
+    "parameters": [
+     {
+      "name": "idempotency-key",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "Idempotency-Key"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "multipart/form-data": {
+       "schema": {
+        "$ref": "#/components/schemas/Body_create_draft_v1_drafts_post"
+       }
+      }
+     }
+    },
+    "responses": {
+     "202": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Created"
+        }
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/v1/drafts/{draft_id}": {
+   "get": {
+    "summary": "Get Draft",
+    "operationId": "get_draft_v1_drafts__draft_id__get",
+    "parameters": [
+     {
+      "name": "draft_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Draft Id"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/DraftOut"
+        }
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/v1/drafts/{draft_id}/fields": {
+   "patch": {
+    "summary": "Edit Fields",
+    "operationId": "edit_fields_v1_drafts__draft_id__fields_patch",
+    "parameters": [
+     {
+      "name": "draft_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Draft Id"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/EditIn"
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/DraftOut"
+        }
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/v1/drafts/{draft_id}/photos": {
+   "post": {
+    "summary": "Add Photo",
+    "operationId": "add_photo_v1_drafts__draft_id__photos_post",
+    "parameters": [
+     {
+      "name": "draft_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Draft Id"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "multipart/form-data": {
+       "schema": {
+        "$ref": "#/components/schemas/Body_add_photo_v1_drafts__draft_id__photos_post"
+       }
+      }
+     }
+    },
+    "responses": {
+     "202": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Created"
+        }
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/v1/drafts/{draft_id}/confirm": {
+   "post": {
+    "summary": "Confirm",
+    "operationId": "confirm_v1_drafts__draft_id__confirm_post",
+    "parameters": [
+     {
+      "name": "draft_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Draft Id"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/DraftOut"
+        }
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/v1/drafts/{draft_id}/photos/{number}": {
+   "get": {
+    "summary": "Photo File",
+    "operationId": "photo_file_v1_drafts__draft_id__photos__number__get",
+    "parameters": [
+     {
+      "name": "draft_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Draft Id"
+      }
+     },
+     {
+      "name": "number",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "integer",
+       "title": "Number"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/v1/categories": {
+   "get": {
+    "summary": "List Categories",
+    "operationId": "list_categories_v1_categories_get",
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {
+         "items": {
+          "$ref": "#/components/schemas/CategoryInfo"
+         },
+         "type": "array",
+         "title": "Response List Categories V1 Categories Get"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/v1/categories/{key}/schema": {
+   "get": {
+    "summary": "Category Schema",
+    "operationId": "category_schema_v1_categories__key__schema_get",
+    "parameters": [
+     {
+      "name": "key",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Key"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "Body_add_photo_v1_drafts__draft_id__photos_post": {
+    "properties": {
+     "photo": {
+      "type": "string",
+      "contentMediaType": "application/octet-stream",
+      "title": "Photo"
+     }
+    },
+    "type": "object",
+    "required": [
+     "photo"
+    ],
+    "title": "Body_add_photo_v1_drafts__draft_id__photos_post"
+   },
+   "Body_create_draft_v1_drafts_post": {
+    "properties": {
+     "photos": {
+      "items": {
+       "type": "string",
+       "contentMediaType": "application/octet-stream"
+      },
+      "type": "array",
+      "title": "Photos"
+     },
+     "hints": {
+      "type": "string",
+      "title": "Hints",
+      "default": "{}"
+     }
+    },
+    "type": "object",
+    "required": [
+     "photos"
+    ],
+    "title": "Body_create_draft_v1_drafts_post"
+   },
+   "CategoryInfo": {
+    "properties": {
+     "key": {
+      "type": "string",
+      "title": "Key"
+     },
+     "title": {
+      "type": "string",
+      "title": "Title"
+     }
+    },
+    "type": "object",
+    "required": [
+     "key",
+     "title"
+    ],
+    "title": "CategoryInfo"
+   },
+   "CategoryOut": {
+    "properties": {
+     "key": {
+      "type": "string",
+      "title": "Key"
+     },
+     "value": {
+      "type": "string",
+      "title": "Value"
+     },
+     "confidence": {
+      "type": "number",
+      "title": "Confidence"
+     },
+     "alternatives": {
+      "items": {
+       "additionalProperties": true,
+       "type": "object"
+      },
+      "type": "array",
+      "title": "Alternatives",
+      "default": []
+     }
+    },
+    "type": "object",
+    "required": [
+     "key",
+     "value",
+     "confidence"
+    ],
+    "title": "CategoryOut"
+   },
+   "Created": {
+    "properties": {
+     "draft_id": {
+      "type": "string",
+      "title": "Draft Id"
+     },
+     "status": {
+      "type": "string",
+      "enum": [
+       "processing",
+       "draft",
+       "ready",
+       "confirmed",
+       "sent",
+       "failed"
+      ],
+      "title": "Status"
+     }
+    },
+    "type": "object",
+    "required": [
+     "draft_id",
+     "status"
+    ],
+    "title": "Created"
+   },
+   "DescriptionOut": {
+    "properties": {
+     "text": {
+      "type": "string",
+      "title": "Text"
+     },
+     "checked": {
+      "type": "boolean",
+      "title": "Checked"
+     },
+     "method": {
+      "type": "string",
+      "title": "Method"
+     },
+     "problems": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Problems",
+      "default": []
+     }
+    },
+    "type": "object",
+    "required": [
+     "text",
+     "checked",
+     "method"
+    ],
+    "title": "DescriptionOut"
+   },
+   "DraftOut": {
+    "properties": {
+     "draft_id": {
+      "type": "string",
+      "title": "Draft Id"
+     },
+     "status": {
+      "type": "string",
+      "enum": [
+       "processing",
+       "draft",
+       "ready",
+       "confirmed",
+       "sent",
+       "failed"
+      ],
+      "title": "Status"
+     },
+     "schema_version": {
+      "type": "string",
+      "title": "Schema Version",
+      "default": "1.0"
+     },
+     "category": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/CategoryOut"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     },
+     "titles": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "type": "object",
+      "title": "Titles",
+      "default": {}
+     },
+     "kinds": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "type": "object",
+      "title": "Kinds",
+      "default": {}
+     },
+     "required": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Required",
+      "default": []
+     },
+     "fields": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/FieldOut"
+      },
+      "type": "object",
+      "title": "Fields",
+      "default": {}
+     },
+     "description": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/DescriptionOut"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     },
+     "readiness": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/ReadinessOut"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     },
+     "missing": {
+      "items": {
+       "$ref": "#/components/schemas/MissingOut"
+      },
+      "type": "array",
+      "title": "Missing",
+      "default": []
+     },
+     "moderation": {
+      "items": {
+       "$ref": "#/components/schemas/IssueOut"
+      },
+      "type": "array",
+      "title": "Moderation",
+      "default": []
+     },
+     "photos": {
+      "items": {
+       "$ref": "#/components/schemas/PhotoOut"
+      },
+      "type": "array",
+      "title": "Photos",
+      "default": []
+     },
+     "lines": {
+      "items": {
+       "$ref": "#/components/schemas/LineOut"
+      },
+      "type": "array",
+      "title": "Lines",
+      "default": []
+     },
+     "log": {
+      "items": {
+       "$ref": "#/components/schemas/LogOut"
+      },
+      "type": "array",
+      "title": "Log",
+      "default": []
+     },
+     "hints": {
+      "additionalProperties": true,
+      "type": "object",
+      "title": "Hints",
+      "default": {}
+     },
+     "timings": {
+      "additionalProperties": true,
+      "type": "object",
+      "title": "Timings",
+      "default": {}
+     },
+     "error": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Error"
+     }
+    },
+    "type": "object",
+    "required": [
+     "draft_id",
+     "status"
+    ],
+    "title": "DraftOut"
+   },
+   "EditIn": {
+    "properties": {
+     "fields": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "type": "object",
+      "title": "Fields"
+     }
+    },
+    "type": "object",
+    "required": [
+     "fields"
+    ],
+    "title": "EditIn"
+   },
+   "Evidence": {
+    "properties": {
+     "source": {
+      "type": "string",
+      "enum": [
+       "photo",
+       "farmer"
+      ],
+      "title": "Source"
+     },
+     "text": {
+      "type": "string",
+      "title": "Text"
+     },
+     "line": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Line"
+     },
+     "photo": {
+      "anyOf": [
+       {
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Photo"
+     },
+     "box": {
+      "anyOf": [
+       {
+        "items": {
+         "type": "integer"
+        },
+        "type": "array"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Box"
+     }
+    },
+    "type": "object",
+    "required": [
+     "source",
+     "text"
+    ],
+    "title": "Evidence"
+   },
+   "FieldOut": {
+    "properties": {
+     "value": {
+      "anyOf": [
+       {
+        "additionalProperties": true,
+        "type": "object"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Value"
+     },
+     "raw": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Raw"
+     },
+     "source": {
+      "type": "string",
+      "enum": [
+       "photo",
+       "farmer",
+       "edited",
+       "none",
+       "conflict"
+      ],
+      "title": "Source"
+     },
+     "confidence": {
+      "type": "number",
+      "title": "Confidence",
+      "default": 0.0
+     },
+     "evidence": {
+      "items": {
+       "$ref": "#/components/schemas/Evidence"
+      },
+      "type": "array",
+      "title": "Evidence",
+      "default": []
+     },
+     "alternatives": {
+      "items": {
+       "additionalProperties": true,
+       "type": "object"
+      },
+      "type": "array",
+      "title": "Alternatives",
+      "default": []
+     }
+    },
+    "type": "object",
+    "required": [
+     "source"
+    ],
+    "title": "FieldOut"
+   },
+   "HTTPValidationError": {
+    "properties": {
+     "detail": {
+      "items": {
+       "$ref": "#/components/schemas/ValidationError"
+      },
+      "type": "array",
+      "title": "Detail"
+     }
+    },
+    "type": "object",
+    "title": "HTTPValidationError"
+   },
+   "IssueOut": {
+    "properties": {
+     "rule": {
+      "type": "string",
+      "title": "Rule"
+     },
+     "severity": {
+      "type": "string",
+      "enum": [
+       "block",
+       "warning"
+      ],
+      "title": "Severity"
+     },
+     "field": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Field"
+     },
+     "message": {
+      "type": "string",
+      "title": "Message"
+     }
+    },
+    "type": "object",
+    "required": [
+     "rule",
+     "severity",
+     "message"
+    ],
+    "title": "IssueOut"
+   },
+   "LineOut": {
+    "properties": {
+     "id": {
+      "type": "string",
+      "title": "Id"
+     },
+     "photo": {
+      "type": "integer",
+      "title": "Photo"
+     },
+     "text": {
+      "type": "string",
+      "title": "Text"
+     },
+     "confidence": {
+      "type": "number",
+      "title": "Confidence"
+     },
+     "box": {
+      "items": {
+       "type": "integer"
+      },
+      "type": "array",
+      "title": "Box"
+     }
+    },
+    "type": "object",
+    "required": [
+     "id",
+     "photo",
+     "text",
+     "confidence",
+     "box"
+    ],
+    "title": "LineOut"
+   },
+   "LogOut": {
+    "properties": {
+     "field": {
+      "type": "string",
+      "title": "Field"
+     },
+     "proposed": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Proposed"
+     },
+     "source": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Source"
+     },
+     "decision": {
+      "type": "string",
+      "enum": [
+       "accepted",
+       "rejected"
+      ],
+      "title": "Decision"
+     },
+     "reason": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Reason"
+     },
+     "score": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Score"
+     },
+     "lines": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Lines",
+      "default": []
+     }
+    },
+    "type": "object",
+    "required": [
+     "field",
+     "decision"
+    ],
+    "title": "LogOut"
+   },
+   "MissingOut": {
+    "properties": {
+     "field": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Field"
+     },
+     "action": {
+      "type": "string",
+      "title": "Action"
+     }
+    },
+    "type": "object",
+    "required": [
+     "action"
+    ],
+    "title": "MissingOut"
+   },
+   "PhotoOut": {
+    "properties": {
+     "number": {
+      "type": "integer",
+      "title": "Number"
+     },
+     "url": {
+      "type": "string",
+      "title": "Url"
+     },
+     "width": {
+      "anyOf": [
+       {
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Width"
+     },
+     "height": {
+      "anyOf": [
+       {
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Height"
+     },
+     "size": {
+      "type": "boolean",
+      "title": "Size"
+     },
+     "sharp": {
+      "type": "boolean",
+      "title": "Sharp"
+     },
+     "light": {
+      "type": "boolean",
+      "title": "Light"
+     }
+    },
+    "type": "object",
+    "required": [
+     "number",
+     "url",
+     "size",
+     "sharp",
+     "light"
+    ],
+    "title": "PhotoOut"
+   },
+   "ReadinessOut": {
+    "properties": {
+     "score": {
+      "type": "integer",
+      "title": "Score"
+     },
+     "fields": {
+      "type": "number",
+      "title": "Fields"
+     },
+     "photos": {
+      "type": "number",
+      "title": "Photos"
+     },
+     "text": {
+      "type": "number",
+      "title": "Text"
+     }
+    },
+    "type": "object",
+    "required": [
+     "score",
+     "fields",
+     "photos",
+     "text"
+    ],
+    "title": "ReadinessOut"
+   },
+   "ValidationError": {
+    "properties": {
+     "loc": {
+      "items": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "integer"
+        }
+       ]
+      },
+      "type": "array",
+      "title": "Location"
+     },
+     "msg": {
+      "type": "string",
+      "title": "Message"
+     },
+     "type": {
+      "type": "string",
+      "title": "Error Type"
+     },
+     "input": {
+      "title": "Input"
+     },
+     "ctx": {
+      "type": "object",
+      "title": "Context"
+     }
+    },
+    "type": "object",
+    "required": [
+     "loc",
+     "msg",
+     "type"
+    ],
+    "title": "ValidationError"
+   }
+  }
+ }
+}

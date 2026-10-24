@@ -1,0 +1,89 @@
+version: "1.0"
+
+fields:
+  name:
+    title: Название
+    kind: text
+    required: true
+    ratio: 70
+  composition:
+    title: Состав
+    kind: text
+    anchor: состав
+    required: true
+  net_quantity:
+    title: Масса или объём
+    kind: quantity
+    required: true
+  shelf_life:
+    title: Срок годности
+    hint: срок вроде "12 месяцев" или "не ограничен", а не дата изготовления
+    kind: duration
+    required: true
+  storage:
+    title: Условия хранения
+    kind: text
+    required: true
+  manufacturer:
+    title: Изготовитель и адрес
+    kind: text
+    required: true
+  energy_kcal:
+    title: Энергетическая ценность, ккал на 100 г
+    hint: значение в ккал, не в кДж
+    kind: energy
+    required: true
+  proteins_g:
+    title: Белки, г на 100 г
+    kind: number
+    required: true
+  fats_g:
+    title: Жиры, г на 100 г
+    kind: number
+    required: true
+  carbohydrates_g:
+    title: Углеводы, г на 100 г
+    kind: number
+    required: true
+  usage:
+    title: Рекомендации по использованию
+    hint: только если на упаковке напечатан способ применения или приготовления
+    kind: text
+    required: false
+  fat_share:
+    title: Массовая доля жира, %
+    kind: percent
+    required: false
+    categories: [cheese, dairy]
+
+categories:
+  dairy:
+    title: Молочные продукты
+    animal: true
+    labels: [молоко, творог, сметана, йогурт, кефир, сливки, сливочное масло]
+    keywords: [молоко, молочн, творог, творож, сметана, йогурт, кефир, сливки, ряженка, простокваша]
+  cheese:
+    title: Сыры
+    animal: true
+    labels: [сыр, твёрдый сыр, мягкий сыр, плавленый сыр, брынза]
+    keywords: [сыр, брынза, моцарелла, сулугуни]
+  meat:
+    title: Мясо и птица
+    animal: true
+    labels: [колбаса, ветчина, мясо, курица, мясные деликатесы]
+    keywords: [колбаса, ветчина, говядина, свинина, курица, мясо, бекон, сосиски]
+  grocery:
+    title: Бакалея
+    animal: false
+    labels: [крупа, мука, макароны, чай, орехи, сухофрукты, растительное масло, чипсы и снеки]
+    keywords: [крупа, гречка, рис, мука, макароны, чай, орехи, масло, чипсы, хлопья]
+  sweets:
+    title: Сладости
+    animal: false
+    labels: [мёд, варенье, джем, шоколад, конфеты, печенье, пастила]
+    keywords: [мёд, мед, варенье, джем, шоколад, конфеты, печенье, пастила, зефир]
+  other:
+    title: Другое
+    animal: false
+    labels: [напиток, соус, полуфабрикат]
+    keywords: []
