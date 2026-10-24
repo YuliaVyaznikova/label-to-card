@@ -30,7 +30,7 @@ export function FieldRow({ name, title, kind, field, required, selected, onSelec
     if (text.trim() !== shown.trim()) onSave(text.trim())
   }
   const evidence = field.evidence.find((item) => item.source === 'photo')
-  const placeholder = field.source === 'none' ? 'нет на фото, впишите сами' : ''
+  const placeholder = field.source === 'none' ? 'не найдено на фото, впишите сами' : ''
   return (
     <div onClick={onSelect}
       className={cn('rounded-lg border px-3 py-2.5 transition-colors', selected ? 'border-brand-500 bg-brand-50/60' : 'border-transparent hover:bg-stone-50')}>

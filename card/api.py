@@ -224,15 +224,15 @@ def get_draft(draft_id: str):
 
 @app.patch("/v1/drafts/{draft_id}/fields", response_model=DraftOut)
 def edit_fields(draft_id: str, body: EditIn):
-    data = store.get(draft_id)
-    if not data:
-        raise HTTPException(404, "Черновик не найден")
-    if data["status"] in ("processing", "failed"):
-        raise HTTPException(409, "Черновик ещё не готов")
     with lock:
+        data = store.get(draft_id)
+        if not data:
+            raise HTTPException(404, "Черновик не найден")
+        if data["status"] in ("processing", "failed"):
+            raise HTTPException(409, "Черновик ещё не готов")
         draft = pipeline.edit(data, body.fields)
-    status = draft.pop("status")
-    store.put(draft_id, draft, status)
+        status = draft.pop("status")
+        store.put(draft_id, draft, status)
     return output(draft_id, {**draft, "status": status})
 
 
@@ -253,14 +253,15 @@ async def add_photo(draft_id: str, background: BackgroundTasks, photo: UploadFil
 
 @app.post("/v1/drafts/{draft_id}/confirm", response_model=DraftOut)
 def confirm(draft_id: str):
-    data = store.get(draft_id)
-    if not data:
-        raise HTTPException(404, "Черновик не найден")
-    if any(issue["severity"] == "block" for issue in data.get("moderation", [])):
-        raise HTTPException(409, "Есть блокирующие замечания модерации")
-    if data["status"] != "ready":
-        raise HTTPException(409, "Заполнены не все обязательные поля")
-    store.put(draft_id, {key: value for key, value in data.items() if key != "status"}, "confirmed")
+    with lock:
+        data = store.get(draft_id)
+        if not data:
+            raise HTTPException(404, "Черновик не найден")
+        if any(issue["severity"] == "block" for issue in data.get("moderation", [])):
+            raise HTTPException(409, "Есть блокирующие замечания модерации")
+        if data["status"] != "ready":
+            raise HTTPException(409, "Заполнены не все обязательные поля")
+        store.put(draft_id, {key: value for key, value in data.items() if key != "status"}, "confirmed")
     return output(draft_id, {**data, "status": "confirmed"})
 
 

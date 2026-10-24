@@ -44,7 +44,7 @@ export function Upload({ onCreated }: Props) {
   const set = (key: keyof Hints) => (event: { target: { value: string } }) => setHints({ ...hints, [key]: event.target.value })
 
   return (
-    <div className="mx-auto grid max-w-5xl gap-6 px-4 py-8 lg:grid-cols-[1fr_340px]">
+    <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 px-4 py-8 lg:grid-cols-[1fr_340px]">
       <div className="flex flex-col gap-5">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Карточка товара за три минуты</h1>
@@ -83,7 +83,7 @@ export function Upload({ onCreated }: Props) {
             <CardTitle>Что вы знаете о товаре</CardTitle>
             <CardDescription>Необязательно. Эти слова сервис тоже считает источником.</CardDescription>
           </CardHeader>
-          <CardContent className="grid gap-3 sm:grid-cols-3">
+          <CardContent className="grid grid-cols-1 gap-3 sm:grid-cols-3">
             <Select value={hints.category ?? ''} onChange={set('category')}>
               <option value="">Категория</option>
               {categories.map((category) => <option key={category.key} value={category.title}>{category.title}</option>)}

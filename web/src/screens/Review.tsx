@@ -25,7 +25,8 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
   const names = useMemo(() => [...draft.required, ...Object.keys(draft.titles).filter((name) => !draft.required.includes(name))], [draft])
   const [selected, setSelected] = useState(names[0])
   const [active, setActive] = useState(1)
-  const [busy, setBusy] = useState(false)
+  const [pending, setPending] = useState(0)
+  const busy = pending > 0
   const [error, setError] = useState('')
   const [description, setDescription] = useState(draft.description?.text ?? '')
   const blocks = draft.moderation.filter((issue) => issue.severity === 'block')
@@ -34,7 +35,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
   const readiness = draft.readiness
 
   const run = async (action: () => Promise<Draft>) => {
-    setBusy(true)
+    setPending((count) => count + 1)
     setError('')
     try {
       const next = await action()
@@ -43,7 +44,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
     } catch (problem) {
       setError((problem as Error).message)
     } finally {
-      setBusy(false)
+      setPending((count) => count - 1)
     }
   }
   const save = (fields: Record<string, string>) => run(() => api.edit(draft.draft_id, fields))
@@ -54,9 +55,9 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
   }
   const addPhoto = async (file: File | undefined) => {
     if (!file) return
-    setBusy(true)
+    setPending((count) => count + 1)
     await api.addPhoto(draft.draft_id, file).catch((problem) => setError(problem.message))
-    setBusy(false)
+    setPending((count) => count - 1)
     onReprocess()
   }
   const reason = blocks.length ? 'Сначала исправьте блокирующие замечания' : draft.status !== 'ready' ? 'Заполните обязательные поля' : ''
@@ -74,7 +75,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
         </div>
       </div>
 
-      <div className="grid gap-5 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+      <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
         <div className="flex flex-col gap-4 lg:sticky lg:top-4 lg:self-start">
           <PhotoViewer photos={draft.photos} lines={draft.lines} highlights={highlights} active={active} onActive={setActive} />
           {draft.photos.length < 5 && (
