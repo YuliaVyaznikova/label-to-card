@@ -36,3 +36,18 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p,
+li,
+dt,
+dd,
+label,
+button {
+  text-wrap: pretty;
+}

@@ -4,6 +4,7 @@ import { api, type CategoryInfo, type Hints } from '@/api'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input, Select, Textarea } from '@/components/ui/input'
+import { typograph } from '@/format'
 
 type Props = { onCreated: (id: string) => void }
 
@@ -47,16 +48,16 @@ export function Upload({ onCreated }: Props) {
     <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-4 py-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-start lg:py-10">
       <section className="rounded-2xl bg-brand-700 px-6 py-7 text-white sm:px-8 sm:pb-9 lg:sticky lg:top-6 lg:px-9 lg:pt-9 lg:pb-11">
         <h1 className="text-3xl leading-tight font-semibold tracking-tight lg:text-[2.6rem]">Карточка товара за&nbsp;три минуты</h1>
-        <p className="mt-4 max-w-md text-[15px] leading-relaxed text-white/80">
-          Сфотографируйте упаковку, и сервис соберёт черновик карточки, указав, откуда взято каждое значение
+        <p className="mt-4 max-w-md text-[15px] leading-relaxed text-balance text-white/80">
+          {typograph('Сфотографируйте упаковку, и сервис соберёт черновик карточки, указав, откуда взято каждое значение')}
         </p>
         <ol className="mt-9 hidden space-y-6 sm:block">
           {STEPS.map(({ title, text }, index) => (
-            <li key={title} className="grid grid-cols-[2.75rem_minmax(0,1fr)] border-t border-white/15 pt-5">
-              <span className="text-xl leading-none font-semibold text-brand-300 tabular-nums">{String(index + 1).padStart(2, '0')}</span>
+            <li key={title} className="grid grid-cols-[2rem_minmax(0,1fr)] border-t border-white/15 pt-5">
+              <span className="text-xl leading-none font-semibold text-brand-300 tabular-nums">{index + 1}</span>
               <div>
-                <p className="leading-tight font-semibold">{title}</p>
-                <p className="mt-1.5 text-sm leading-relaxed text-white/70">{text}</p>
+                <p className="leading-tight font-semibold">{typograph(title)}</p>
+                <p className="mt-1.5 text-sm leading-relaxed text-white/70">{typograph(text)}</p>
               </div>
             </li>
           ))}
@@ -67,7 +68,7 @@ export function Upload({ onCreated }: Props) {
         <Card>
           <CardHeader>
             <CardTitle>Фото упаковки</CardTitle>
-            <CardDescription>От 1 до 5 фото: {TIPS.join(', ')}</CardDescription>
+            <CardDescription>{typograph(`От 1 до 5 фото: ${TIPS.join(', ')}`)}</CardDescription>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-3 gap-3 sm:grid-cols-5">
@@ -93,7 +94,7 @@ export function Upload({ onCreated }: Props) {
         <Card>
           <CardHeader>
             <CardTitle>Что Вы знаете о товаре</CardTitle>
-            <CardDescription>Если Вы знаете то, что не указано на упаковке, впишите это, и тогда сервис это учтёт</CardDescription>
+            <CardDescription>{typograph('Если Вы знаете то, что не указано на упаковке, впишите это, и тогда сервис это учтёт')}</CardDescription>
           </CardHeader>
           <CardContent className="grid grid-cols-1 gap-3 sm:grid-cols-3">
             <Select value={hints.category ?? ''} onChange={set('category')}>
@@ -102,7 +103,7 @@ export function Upload({ onCreated }: Props) {
             </Select>
             <Input placeholder="Цена, ₽" inputMode="decimal" value={hints.price ?? ''} onChange={set('price')} />
             <Input placeholder="Вес или объём" value={hints.weight ?? ''} onChange={set('weight')} />
-            <Textarea className="sm:col-span-3" placeholder="Уточнения, например: срок годности 6 месяцев, хранить в прохладном месте" value={hints.notes ?? ''} onChange={set('notes')} />
+            <Textarea className="sm:col-span-3" placeholder="Уточнения, например: срок годности 6 месяцев" value={hints.notes ?? ''} onChange={set('notes')} />
           </CardContent>
         </Card>
         {error && <p className="text-sm text-rose-700">{error}</p>}

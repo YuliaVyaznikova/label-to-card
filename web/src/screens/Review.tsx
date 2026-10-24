@@ -9,7 +9,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Textarea } from '@/components/ui/input'
 import { Progress } from '@/components/ui/progress'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { percent } from '@/format'
+import { percent, typograph } from '@/format'
 import { cn } from '@/lib/utils'
 
 type Props = { draft: Draft; onDraft: (draft: Draft) => void; onReprocess: () => void; onBack: () => void }
@@ -112,7 +112,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
                       {draft.missing.map((item) => (
                         <li key={item.action}>
                           <button type="button" onClick={() => item.field && select(item.field)} className={cn('flex w-full items-start gap-2 text-left text-sm', item.field && 'cursor-pointer hover:text-brand-700')}>
-                            <CircleAlert className="mt-0.5 size-4 shrink-0 text-[#e0a800]" />{item.action}
+                            <CircleAlert className="mt-0.5 size-4 shrink-0 text-[#e0a800]" />{typograph(item.action)}
                           </button>
                         </li>
                       ))}
@@ -132,7 +132,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
                 {[...blocks, ...warnings].map((issue, index) => (
                   <div key={index} className={cn('flex gap-2.5 rounded-xl px-3.5 py-2.5 text-sm leading-relaxed', issue.severity === 'block' ? 'bg-rose-50 text-rose-900' : 'bg-sun-50 text-ink')}>
                     {issue.severity === 'block' ? <OctagonAlert className="mt-0.5 size-4 shrink-0" /> : <TriangleAlert className="mt-0.5 size-4 shrink-0 text-sun-700" />}
-                    <span>{issue.message}</span>
+                    <span>{typograph(issue.message)}</span>
                   </div>
                 ))}
               </CardContent>
@@ -177,7 +177,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
               <Card>
                 <CardHeader>
                   <CardTitle>Что предложила модель и что прошло проверку</CardTitle>
-                  <CardDescription>Значение попадает в карточку, только если его текст найден на фото или в Ваших словах</CardDescription>
+                  <CardDescription>{typograph('Значение попадает в карточку, только если его текст найден на фото или в Ваших словах')}</CardDescription>
                 </CardHeader>
                 <CardContent className="divide-y divide-line">
                   {draft.log.map((entry, index) => (
@@ -185,8 +185,8 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
                       {entry.decision === 'accepted' ? <Check className="mt-0.5 size-4 shrink-0 text-brand-600" /> : <X className="mt-0.5 size-4 shrink-0 text-rose-600" />}
                       <div className="min-w-0 flex-1">
                         <p className="text-xs text-muted">{draft.titles[entry.field] ?? entry.field}</p>
-                        <p className="break-words">«{entry.proposed}»</p>
-                        {entry.decision === 'rejected' && <p className="text-xs text-rose-700">отброшено: {entry.reason}</p>}
+                        <p className="break-words">«{typograph(entry.proposed ?? '')}»</p>
+                        {entry.decision === 'rejected' && <p className="text-xs text-rose-700">отброшено: {typograph(entry.reason ?? '')}</p>}
                       </div>
                       {entry.score != null && <span className="text-xs text-muted tabular-nums">{percent(entry.score)}</span>}
                     </div>
@@ -199,7 +199,7 @@ export function Review({ draft, onDraft, onReprocess, onBack }: Props) {
         </div>
       </div>
 
-      <div className="fixed inset-x-0 bottom-0 border-t border-line bg-white/95 shadow-[0_-6px_20px_rgba(29,42,31,0.06)] backdrop-blur">
+      <div className="fixed inset-x-0 bottom-0 border-t border-line bg-white shadow-[0_-6px_20px_rgba(29,42,31,0.06)]">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
           <p className="text-sm text-muted">{reason || 'Карточка готова к отправке на площадку'}</p>
           <Button size="lg" disabled={!!reason || busy} onClick={() => run(() => api.confirm(draft.draft_id))}>

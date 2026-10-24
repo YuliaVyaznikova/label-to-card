@@ -3,7 +3,7 @@ import { Check, ChevronDown, Copy } from 'lucide-react'
 import type { Draft } from '@/api'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
-import { formatValue } from '@/format'
+import { formatValue, typograph } from '@/format'
 import { cn } from '@/lib/utils'
 
 const NUTRITION = [['energy_kcal', 'Энергетическая ценность'], ['proteins_g', 'Белки'], ['fats_g', 'Жиры'], ['carbohydrates_g', 'Углеводы']] as const
@@ -51,7 +51,7 @@ export function Done({ draft, onNew }: { draft: Draft; onNew: () => void }) {
         <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-brand-600 text-white"><Check className="size-5" /></span>
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Карточка подтверждена</h1>
-          <p className="mt-0.5 text-sm text-muted">Карточка готова к отправке на площадку, так её увидят покупатели</p>
+          <p className="mt-0.5 text-sm text-muted">{typograph('Карточка готова к отправке на площадку, так её увидят покупатели')}</p>
         </div>
       </div>
 
@@ -75,7 +75,7 @@ export function Done({ draft, onNew }: { draft: Draft; onNew: () => void }) {
             <h2 className="mt-1.5 text-2xl leading-tight font-semibold">{value('name')}</h2>
             {value('net_quantity') && <p className="mt-1 text-sm text-muted">{value('net_quantity')}</p>}
             {price && <p className="mt-4 text-3xl font-semibold tracking-tight">{price} ₽</p>}
-            {draft.description?.text && <p className="mt-5 text-sm leading-relaxed">{draft.description.text}</p>}
+            {draft.description?.text && <p className="mt-5 text-sm leading-relaxed">{typograph(draft.description.text)}</p>}
             {nutrition.length > 0 && (
               <div className="mt-6">
                 <p className="text-sm font-semibold">Пищевая ценность на 100 г</p>
@@ -94,7 +94,7 @@ export function Done({ draft, onNew }: { draft: Draft; onNew: () => void }) {
                 {details.map((name) => (
                   <div key={name} className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-4">
                     <dt className="text-muted">{draft.titles[name].replace(/,\s*%$/, '')}</dt>
-                    <dd className="leading-relaxed">{value(name)}</dd>
+                    <dd className="leading-relaxed">{typograph(value(name))}</dd>
                   </div>
                 ))}
               </dl>

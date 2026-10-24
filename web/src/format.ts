@@ -30,3 +30,10 @@ export function formatValue(kind: string, value: Record<string, unknown> | null 
 export function percent(value: number) {
   return `${Math.round(value * 100)}%`
 }
+
+export function typograph(text: string) {
+  return text
+    .replace(/(\d) (?=(?:°|г(?![а-яё])|кг|мл|л(?![а-яё])|ккал|кДж|%|сут|мес|шт|₽))/g, '$1 ')
+    .replace(/(?<=^|[\s(«,])(г|ул|д)\. /g, '$1. ')
+    .replace(/(?<=^|[\s(«])(а|в|во|и|к|ко|о|об|с|со|у|на|по|до|от|из|за|не|ни|но|для|при|без|над|под|А|В|И|К|О|С|У|На|По|До|От|Из|За|Не|Для|При|Без) /g, '$1 ')
+}
